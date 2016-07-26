@@ -1,0 +1,547 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Quiz Game Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Quiz Game&rdquo; Documentation by &ldquo;demonisblack&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Quiz Game&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 2/22/2015<br>
+					By: demonisblack<br>
+					Email: <a href="mailto:demonisblack@gmail.com">demonisblack@gmail.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my game. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://codecanyon.net/user/demonisblack">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+        	<li><a href="#introduction">Introduction</a></li>
+            <li><a href="#gettingStarted">Getting Started</a></li>
+            <li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+            <li><a href="#gameFunctions">Game Functions</a></li>
+            <li><a href="#gameAssets">Game Assets</a></li>
+            <li><a href="#XMLFile">XML File</a></li>
+            <li><a href="#answerLayouts">Answer Layouts</a></li>
+            <li><a href="#buildinEditorTool">Build-In Editor Tool</a></li>
+            <li><a href="#compatibility">Compatibility</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+            <li><a href="#changelog">Changelog</a></li>
+		</ol>
+		
+		<hr>
+        
+        <h3 id="introduction"><strong>A) Introduction</strong> - <a href="#toc">top</a></h3>
+        <p>Quiz Game is a HTML5 game with free general knowledge quiz questions and multiple choice answers.</p>
+        
+        <p>The ZIP package contains the game with 1024x768 resolution that scales proportionally to fit current screen device.</p>
+        
+        <p>
+        <strong>List of types of games:</strong><br/>
+        	<ul>
+        		<li>IQ Test<br/><img src="assets/images/guide1.jpg" /><br/><br/></li>
+                <li>Idiot Test<br/><img src="assets/images/guide2.jpg" /><br/></li>
+            </ul>
+        </p>
+        
+        <p>
+        <strong>Build-In Editor Tool:</strong><br/>
+       	<img src="assets/images/edit1.jpg" />
+        </p>
+        
+        <p>
+        <strong>Total 17 type of answer layouts, maximum up to 8 answers choice:</strong><br/>
+       	<img src="assets/images/layouts.jpg" />
+        </p>
+        
+        <hr>
+        
+        <h3 id="gettingStarted"><strong>B) Getting Started</strong> - <a href="#toc">top</a></h3>
+		<p>To install the game just upload folder 'game' to your server. The game won't run locally with some browser like Chrome due to some security mode.</p>        
+        <p>You need a website that runs PHP to make facebook share button work, and make sure to change Facebook Open Graph meta and Twitter meta in index.html, just replace [GAME_URL] to your game URL.</p>
+        <pre>
+        &lt;!-- for Facebook --&gt;
+        &lt;meta property=&quot;og:image&quot; content=&quot;[GAME_URL]/share.jpg&quot; /&gt;
+        &lt;meta property=&quot;og:url&quot; content=&quot;[GAME_URL]&quot; /&gt;
+        
+        &lt;!-- for Twitter --&gt;
+        &lt;meta name=&quot;twitter:image&quot; content=&quot;[GAME_URL]/share.jpg&quot; /&gt;
+        </pre>
+        
+        <p>You can easily customize game text and settings in game.js file
+        <pre>
+        var loadingText = 'LOADING...'; //text for loading...
+        var startButtonText = 'TAP TO START'; //text for start button
+        
+        var categoryPage = true; //show/hide category select page
+        var categoryAllOption = true; //add ALL category select option
+        var categoryContinueText = 'SELECT CATEGORY'; //text for category page button
+        var categoryAllText = 'All'; //text for all category select option
+        
+        var backgroundColour = '#755FBE'; //background colour
+        var questionTextColour = '#fff'; //question text colour
+        var answerTextColour = '#fff'; //answer text colour
+        var questionTextSize = 50; //question text size
+        var answerTextSize = 50; //answer text size
+        var textLineHeight = 5; //text line height
+        
+        var questionTextDisplay = 'Q[NUMBER] / [TOTAL]:'; //current question and total question display
+        var questionTextAlign = 'center'; //question text align, for now only support align center
+        var questionStartY = 170; //question starting position y
+        var questionImageOffsetY = -60; //question image format offset y
+        
+        var answerListsEnable = true; //enable answer list style
+        var answerLists = ['a) ','b) ','c) ','d) ','e) ','f) ','g) ','h) ']; //answer list style formatn, maximum 8
+        var answerAnimationEnable = true; //enable answer animation
+        
+        var answerButtonBgEnable = true; //toggle answer button background
+        var answerButtonBgRoundNumber = 20; //answer button background round corner number
+        var answerButtonBgShadowNumber = 10; //answer button background shadow
+        var answerButtonBgColour = '#E7577A'; //answer button background colour
+        var answerButtonBgShadowColour = '#D03E61'; //answer button background shadow colour
+        var answeredButtonBgColour = '#FFCC46'; //answered button background colour
+        var answeredButtonBgShadowColour = '#FFA73A'; //answered button background shadow colour
+        var answerButtonPositionOffsetY = -15; //answer button background offsey y
+        
+        var textHeight = 70; //text height
+        var textSpace = 25; //text spacing
+        
+        var timerStart = 15; //timer start number
+        var timerBarHeight = 10; //timer bar height
+        var timerBarColour = '#fff'; //timer bar colour
+        
+        var animateCorrectEnable = true; //toggle answer correct animation
+        var randomQuestionEnable = false; //toggle random question
+        
+        var resultTitleText = 'BEST SCORE'; //text for result page title
+        var replayButtonText = 'TRY AGAIN'; //text for replay button
+        
+        //Social share, [SCORE] will replace with game score
+        var shareText ='SHARE IT NOW'; //text for share instruction
+        var shareTitle = 'Highscore on Quiz Game is [SCORE]';//social share score title
+        var shareMessage = '[SCORE] is mine new highscore on Quiz Game! Try it now!'; //social share score message
+        </pre>
+        </p>
+        
+        <p>
+        The sound can be easily disabled to avoid compatibility issues in sound.js file:
+        <pre>
+        var enableMobileSound = true;
+        </pre>
+        </p>
+        
+        <p>If you wish to customize the question and answer via XML file, check out <a href="#XMLFile">XML File</a> section.</p>
+        <p>If you wish to customize the question and answer with build-in tool, check out <a href="#buildinEditorTool">Build-In Editor Tool</a> section.</p>
+        <hr>
+		
+		<h3 id="htmlStructure"><strong>C) HTML Structure</strong> - <a href="#toc">top</a></h3>
+        <p>The page start with the loader wrapper that covering the whole screen in the body. It shows loader progress when calls the function <strong>initPreload()</strong></p>
+        <pre>
+        &lt;!-- PERCENT LOADER START--&gt;
+        &lt;div id=&quot;mainLoader&quot;&gt;0&lt;/div&gt;
+        &lt;!-- PERCENT LOADER END--&gt;
+        </pre>
+        
+        <p>This section is for browser not support page when calls the function <strong>checkBrowser()</strong>. It shows error message when detect the browser does not support canvas.</p>
+        <pre>
+        &lt;!-- BROWSER NOT SUPPORT START--&gt;
+        &lt;div id=&quot;notSupportHolder&quot;&gt;
+            &lt;div class=&quot;notSupport&quot;&gt;YOUR BROWSER ISN&#39;T SUPPORTED.&lt;br/&gt;PLEASE UPDATE YOUR BROWSER IN ORDER TO RUN THE GAME&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- BROWSER NOT SUPPORT END--&gt;
+        </pre>
+        
+        <p>Device rotate instruction page when calls the function <strong>checkMobileOrientation()</strong>. It shows rotate instruction when device is in portrait view.</p>
+        <pre>
+        &lt;!-- ROTATE INSTRUCTION START--&gt;
+        &lt;div id=&quot;rotateHolder&quot;&gt;
+            &lt;div class=&quot;mobileRotate&quot;&gt;
+                    &lt;div class=&quot;rotateDesc&quot;&gt;Rotate your device &lt;br/&gt;to landscape&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- ROTATE INSTRUCTION END--&gt;
+        </pre>
+        
+        <p>Follow by one canvas tag in the body. The game start initiatie by calls the main function of the game <strong>initMain()</strong>.</p>
+        <pre>
+        &lt;!-- CANVAS START--&gt;
+        &lt;div id=&quot;canvasHolder&quot;&gt;
+            &lt;canvas id=&quot;gameCanvas&quot; width=&quot;1024&quot; height=&quot;768&quot;&gt;&lt;/canvas&gt;
+        &lt;/div&gt;
+        &lt;!-- CANVAS END--&gt;
+        </pre>
+		<hr>
+
+		<h3 id="cssFiles"><strong>D) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+		<p>I'm using two CSS files in this game. The first one is a generic reset file. Many browser interpret the default behavior of html elements differently. By using a general reset CSS file, we can work round this. This file also contains some general styling, such as anchor tag colors, font-sizes, etc. Keep in mind, that these values might be overridden somewhere else in the file.</p>
+		<p>The second file contains all of the specific stylings for the page.</p>
+        <hr>
+		
+        
+		<h3 id="javascript"><strong>E) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This game using Javascript files below.</p>
+		
+		<ol>
+			<li>
+                <strong>jQuery</strong> is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML.<br/><br/>
+            </li>
+            
+            <li>
+                <strong>Detect Mobile Browser</strong> is a open source scripts to detect mobile browsers and phones.<br/><br/>
+            </li>
+            
+            <li>
+                <strong>CreateJs plugin</strong> is a suite of modular libraries and tools which work together to create interactive content on open web technologies via HTML5.<br/><br/>
+            </li>
+            
+            <li>
+                <strong>TweenMax</strong> is an extremely fast, lightweight, and flexible animation tool that serves as the foundation of the GreenSock Animation Platform (GSAP).<br/><br/>
+            </li>
+            
+            <li>
+                <strong>The game have the following js files</strong>
+                <ul>
+                    <li><strong>init.js :</strong> check if browser or device support <br/><br/></li>
+                    <li><strong>loader.js :</strong> loader to load all game images<br/><br/></li>
+                    <li><strong>main.js :</strong> initiate game setup and browser resize function<br/><br/></li>
+                    <li><strong>mobile.js :</strong> mobile orientation change<br/><br/></li>
+                    <li><strong>canvas.js :</strong> canvas setup and resize<br/><br/></li>
+                    <li><strong>sound.js :</strong> sound event<br/><br/></li>
+                    <li><strong>game.js :</strong> game play and logics<br/><br/></li>
+                    <li><strong>plugins.js :</strong> additonal useful plugins<br/><br/></li>
+                </ul>
+            </li>
+		</ol>
+        
+        <p>Complete game flow:</p>
+		<ol>
+        	<li>The index.html file start init.js for browser detection</li>
+            <li>If browser is supported, init loader.js to start load asserts with loading progress</li>
+            <li>For mobile the rotate instruction shows when device is in portrait view, detect by mobile.js</li>
+            <li>When all asserts contained in "/assets" folder are loaded, the game start construct canvas.js from main.js thats shows game menu</li>
+            <li>If user click the screen in game menu, the game will start category page with game.js</li>
+            <li>If user click select category in category page, the game will start with first question</li>
+            <li>If user choose the right answer, user will score point and move to next question</li>
+            <li>If user choose the wrong answer, the game will move to next question</li>
+            <li>If user did not answer the question on time, game result will shows</li>
+            <li>When all the question is complete, game result will shows</li>
+            <li>If user click the screen in game result, it will restart the game</li>
+        </ol>
+		
+		<hr>
+        
+        <h3 id="gameFunctions"><strong>F) Game Functions</strong> - <a href="#toc">top</a></h3>
+		
+		<p>The most important functions used for page.</p>
+        <ul>
+        	<li>
+                <strong>checkBrowser()</strong><br/>
+                This function is runs for browser detection<br/><br/>
+            </li>
+            
+            <li>
+                <strong>checkMobileEvent()</strong><br/>
+                This function runs for mobile event<br/><br/>
+            </li>
+        </ul>
+        
+        <p>The most important functions used for game.</p>
+        <ul>
+        	<li>
+                <strong>initMain()</strong><br/>
+                This function build canvas<br/><br/>
+            </li>
+            
+            <li>
+                <strong>startGame()</strong><br/>
+                This function start gameplay<br/><br/>
+            </li>
+            
+            <li>
+                <strong>stopGame()</strong><br/>
+                This function stop gameplay<br/><br/>
+            </li>
+        </ul>
+		<hr>
+        
+        <h3 id="gameAssets"><strong>G) Game Assets</strong> - <a href="#toc">top</a></h3>
+        <p>The game contain 'design' folder which include following:
+        <ol>
+        	<li>quizgame_1024x768.psd - with layer folders below
+                <ul>
+                <li>Result</li>
+                <li>Gameplay</li>
+                <li>Landing</li>
+                </ul>
+        	</li>
+        </ol>
+        </p>
+        
+        <p>The game contain 'animations' folder which include following:
+        <ol>
+            <li>loader.fla - complete animation frames for loader</li>
+            <li>brainidea.fla - complete animation frames for brain idea</li>
+        </ol>
+        </p>
+        <p>The folder 'assets' in 'game' folder contains all the images of the game that can be replaced. Is better to have the same size of the old ones if you want to reskin the game graphic without coding.</p>
+		<hr>
+        
+        <h3 id="XMLFile"><strong>H) XML File</strong> - <a href="#toc">top</a></h3>
+        <p>You can easily build or edit Question and Answer in <Strong>question.xml</Strong> file
+        
+        <p>All Question and Answer are store in each XML item, sample code below:.</p>
+        <pre>
+        &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+        &lt;questions&gt;
+            &lt;item&gt;
+                &lt;category&gt;IQ Test&lt;/category&gt;
+                &lt;question&gt;&lt;![CDATA[Some months have 31 days,
+                some others have 30 days.
+                How many months have 28 days?]]&gt;&lt;/question&gt;
+                &lt;answers answerLayout=&#39;4type3&#39; correctAnswer=&#39;3&#39;&gt;
+                    &lt;answer&gt;&lt;![CDATA[6]]&gt;&lt;/answer&gt;
+                    &lt;answer&gt;&lt;![CDATA[2]]&gt;&lt;/answer&gt;
+                    &lt;answer&gt;&lt;![CDATA[12]]&gt;&lt;/answer&gt;
+                    &lt;answer&gt;&lt;![CDATA[11]]&gt;&lt;/answer&gt;
+                &lt;/answers&gt;
+            &lt;/item&gt;
+        &lt;/questions&gt;
+        </pre>
+        <p>Below is the explanation of each most important XML elements:</p>
+        <ol>
+            <li><strong>category</strong> - is to categories the type of question (eg. IQ Test, Idiot Test), the category name will be display in category select option page, leave it empty if categoryPage option is set to false.
+            <pre>
+        &lt;category&gt;IQ Test&lt;/category&gt;
+            </pre>
+            </li>
+            
+            <li><strong>question</strong> - the question must enter in between &lt;![CDATA[ ]]&gt; in xml so the data contained therein will not be parsed as XMLs
+                <ul>
+                    <li><strong>fontSize</strong> - attribute fontSize can set the text font size (number only), this is optional when the question is too long to adjust the font size smaller, leave it empty to load default font size</li>
+                    <li><strong>audio</strong> - attribute audio is the audio file path for question, it must have MP3 and OGG file format for cross-browser compatible, only OGG format to be insert to XML data, it will auto change to MP3 if is not support.</li>
+                </ul>
+            <pre>
+        &lt;question fontSize='50' audio='assets/sounds/questions/question1.ogg'&gt;
+        &lt;![CDATA[You are participating in a race.
+            You overtake the second person.
+            What position are you in?]]&gt;
+        &lt;/question&gt;
+        	</pre>
+            
+            	<ul>
+                    <li><strong>type</strong> - attribute type can set to 'image' to load image as question instead of text, and the image path can insert into question element like below</li>
+                </ul>
+            <pre>
+        &lt;question type=&#39;image&#39;&gt;assets/questions/tshirt.png&lt;/question&gt;
+        	</pre>
+            </li>
+            
+            <li><strong>answers</strong> - the multiple choice answers can be insert here, maximum 8 answers
+                <ul>
+                    <li><strong>answerLayout</strong> - attribute answerLayout is the layout options, there are total 17 type of layouts (check out <a href="#answerLayouts">Answer Layouts</a> section.)
+                    </li>
+                    <li><strong>correctAnswer</strong> - attribute correctAnswer is the right answer of the question, eg the answer is 7 'None'</li>
+                    <li><strong>answerOffsetY</strong> - attribute answerOffsetY is the offset position y</li>
+        <pre>
+        &lt;answers answerLayout=&#39;8type2&#39; correctAnswer=&#39;7&#39 answerOffsetY=&#39;-30&#39;&gt;
+            &lt;answer&gt;&lt;![CDATA[Nomo]]&gt;&lt;/answer&gt;
+            &lt;answer&gt;&lt;![CDATA[Nuni]]&gt;&lt;/answer&gt;
+            &lt;answer&gt;&lt;![CDATA[Neno]]&gt;&lt;/answer&gt;
+            &lt;answer&gt;&lt;![CDATA[Nino]]&gt;&lt;/answer&gt;
+            &lt;answer&gt;&lt;![CDATA[Nena]]&gt;&lt;/answer&gt;
+            &lt;answer&gt;&lt;![CDATA[Nono]]&gt;&lt;/answer&gt;
+            &lt;answer&gt;&lt;![CDATA[None]]&gt;&lt;/answer&gt;
+            &lt;answer&gt;&lt;![CDATA[Nunu]]&gt;&lt;/answer&gt;
+        &lt;/answers&gt;
+        </pre>
+            		
+                </ul>
+            	<ul>
+                	<li><strong>answer</strong> - the answer must enter in between &lt;![CDATA[ ]]&gt; in xml so the data contained therein will not be parsed as XMLs</li>
+                    <pre>
+        &lt;answer fontSize=&#39;50&#39; width=&quot;250&quot; height=&quot;50&quot; x=&#39;700&#39; y=&#39;350&#39;&gt;&lt;![CDATA[2]]&gt;&lt;/answer&gt;
+                    </pre>
+                    <ul>
+                    	<li><strong>fontSize</strong> -  attribute fontSize can set the text font size (number only), this is optional when the answer is too long to adjust the font size smaller, leave it empty to load default font size</li>
+                        <li><strong>width</strong> -  attribute width is the width of the answer (number only, and apply to text not image)</li>
+                        <li><strong>height</strong> -  attribute height is the height of the answer (number only, and apply to text not image)</li>
+                        <li><strong>x</strong> -  attribute x is the position x of the answer</li>
+                        <li><strong>y</strong> -  attribute y is the position y of the answer</li>
+                        <li>Can customize your own layout with width, height, position x and y, leave it empty to load default layouts</li>
+                    	<li><strong>type</strong> -  attribute type can set to 'image' to load image as answer instead of text, and the image path can insert into answer element like below</li>
+                        <li><strong>audio</strong> - attribute audio is the audio file path for question, it must have MP3 and OGG file format for cross-browser compatible, only OGG format to be insert to XML data, it will auto change to MP3 if is not support.</li>
+                    <pre>
+        &lt;answer x=&#39;200&#39; y=&#39;500&#39; type=&#39;image&#39; audio=&#39;assets/sounds/questions/question3_a2.ogg&#39;&gt;
+        	assets/questions/number1.png
+        &lt;/answer&gt;
+                    </pre>
+                    </ul>
+                </ul>
+            </li>
+        </ol>
+        
+		<hr>
+        
+        <h3 id="answerLayouts"><strong>I) Answer Layouts</strong> - <a href="#top">top</a></h3>
+        
+        <p>There are total 17 type of layouts:</p>
+        <ol>
+            <li>2type1<br/><img src="assets/images/2type1.jpg" /><br/><br/></li>
+            <li>2type2<br/><img src="assets/images/2type2.jpg" /><br/><br/></li>
+            <li>3type1<br/><img src="assets/images/3type1.jpg" /><br/><br/></li>
+            <li>3type2<br/><img src="assets/images/3type2.jpg" /><br/><br/></li>
+            <li>3type3<br/><img src="assets/images/3type3.jpg" /><br/><br/></li>
+            <li>4type1<br/><img src="assets/images/4type1.jpg" /><br/><br/></li>
+            <li>4type2<br/><img src="assets/images/4type2.jpg" /><br/><br/></li>
+            <li>4type3<br/><img src="assets/images/4type3.jpg" /><br/><br/></li>
+            <li>5type1<br/><img src="assets/images/5type1.jpg" /><br/><br/></li>
+            <li>5type2<br/><img src="assets/images/5type2.jpg" /><br/><br/></li>
+            <li>5type3<br/><img src="assets/images/5type3.jpg" /><br/><br/></li>
+            <li>6type1<br/><img src="assets/images/6type1.jpg" /><br/><br/></li>
+            <li>6type2<br/><img src="assets/images/6type2.jpg" /><br/><br/></li>
+            <li>7type1<br/><img src="assets/images/7type1.jpg" /><br/><br/></li>
+            <li>7type2<br/><img src="assets/images/7type2.jpg" /><br/><br/></li>
+            <li>8type1<br/><img src="assets/images/8type1.jpg" /><br/><br/></li>
+            <li>8type2<br/><img src="assets/images/8type2.jpg" /><br/><br/></li>
+        </ol>
+		<hr>
+        
+        <h3 id="buildinEditorTool"><strong>J) Build-In Editor Tool</strong> - <a href="#toc">top</a></h3>
+        <p>This is the section where you can preview or edit the question and answer with the tool by running <Strong>edit.html</Strong>. The page start with edit tools.<br/></p>
+        
+        <p>
+        <img src="assets/images/edit1.jpg" />
+        <ol>
+        	<li>First select the quetions you want to edit.</li>
+            <li>Option to add new or remove question.</li>
+            <li>This section is to edit question and answers, and also output the new XML string.
+            	<ul>
+                	<li>Edit Question - edit question settings</li>
+                    <li>Edit Answers - edit all answers settings</li>
+                    <li>Generate XML - click to generate new XML string, copy and replace into questions.xml for new update</li>
+                </ul>
+            </li>
+        </ol>
+        </p>
+        
+        <p>
+        <img src="assets/images/edit2.jpg" />
+        <ol>
+            <li>Edit question:
+            	<ul>
+                	<li><strong>Category</strong> - is to categories the type of question (eg. IQ Test, Idiot Test), the category name will be display in category select option page, leave it empty if categoryPage option is set to false. </li>
+                    <li><strong>Type</strong> - option set to 'image' to load image as question instead of text</li>
+                    <li><strong>Font Size</strong> - can set the text font size (number only), this is optional when the question is too long to adjust the font size smaller, leave it empty to load default font size</li>
+                    <li><strong>Text</strong> - the question text or image path</li>
+                    <li><strong>audio</strong> - attribute audio is the audio file path for question, it must have MP3 and OGG file format for cross-browser compatible, only OGG format to be insert to XML data, it will auto change to MP3 if is not support.</li>
+                </ul>
+            </li>
+            <li>Click preview question to see the new update, click back or done to save and go back main options.
+            </li>
+        </ol>
+        </p>
+        
+        <p>
+        <img src="assets/images/edit3.jpg" />
+        <ol>
+            <li><strong>Answer layouts</strong> - there are total 17 type of layouts for multiple answers</li>
+            <li>Answer setting:
+                <ul>
+                    <li><strong>Correct Answer</strong> - is the right answer of the question, eg the answer is 2 '75'</li>
+                    <li><strong>Offset Y</strong> - is the offset position y</li>
+                </ul>
+            </li>
+            <li><strong>Answer list</strong> - multiple choice answers can be select to edit here, and option to add new or remove answer, only maximum 8 answers. (*If new answer is added, make sure to choose new answer layout to see new answer)</li>
+            <li>Answer settings:
+            	<ul>
+                    <li><strong>Type</strong> - option set to 'image' to load image as answer instead of text</li>
+                    <li><strong>Text</strong> - the answer text or image path</li>
+                    <li><strong>Font Size</strong> - can set the text font size (number only), this is optional when the answer is too long to adjust the font size smaller, leave it empty to load default font size</li>
+                    <li><strong>Width</strong> - is the width of the answer (number only, and apply to text not image)</li>
+                    <li><strong>Height</strong> - is the height of the answer (number only, and apply to text not image)</li>
+                    <li><strong>X</strong> - is the position x of the answer</li>
+                    <li><strong>Y</strong> - is the position y of the answer</li>
+                    <li><strong>audio</strong> - attribute audio is the audio file path for question, it must have MP3 and OGG file format for cross-browser compatible, only OGG format to be insert to XML data, it will auto change to MP3 if is not support.</li>
+                    <li>Can customize your own layout with width, height, position x and y, leave it empty to load default layouts</li>
+                </ul>
+            </li>
+            <li>Click preview answer to see the new update, click back or done to save and go back main options.</li>
+        </ol>
+        </p>
+        
+        <hr>
+        
+        <h3 id="compatibility"><strong>K) Compatibility</strong> - <a href="#top">top</a></h3>
+		
+		<p>This game is build for Desktop browsers that support HTML5 canvas. Any mobile/tablet should work in landscape view, but they are not officially supported.</p>
+		<hr>
+		
+		<h3 id="credits"><strong>L) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've used the following font and sound files as listed.</p>
+		
+		<ul>
+			<li><a href="http://www.dafont.com/comfortaa.font" target="_blank">Comfortaa</a> from file aajohan@gmail.com</li>
+            <li><a href="http://www.freepik.com/free-vector/creative-brain_797095.htm#term=creative%20brain&page=1&position=23" target="_blank">Creative brain</a> from file freepik</li>
+            <li><a href="http://www.freepik.com/free-vector/sketchy-baby-faces_791770.htm#term=baby&page=3&position=1" target="_blank">Sketchy baby faces</a> from file freepik</li>
+            <li><a href="http://www.freepik.com/free-vector/t-shirt-icons_793776.htm#term=t%20shirt&page=1&position=35" target="_blank">T shirt icons</a> from file freepik</li>
+            <li><a href="http://www.freesound.org/people/shinephoenixstormcrow/sounds/337049/" target="_blank">320655__rhodesmas__level-up-01.mp3</a> from file shinephoenixstormcrow</li>
+            <li><a href="http://www.freesound.org/people/fins/sounds/133283/" target="_blank">game over</a> from file fins</li>
+            <li><a href="http://www.freesound.org/people/fins/sounds/133284/" target="_blank">level complete</a> from file fins</li>
+			<li><a href="http://www.freesound.org/people/broumbroum/sounds/50561/" target="_blank">sf3-sfx-menu-select.wav</a> from file broumbroum</li>
+            <li><a href="http://www.freesound.org/people/ztrees1/sounds/134935/" target="_blank">Whoosh.wav</a> from file ztrees1</li>
+            <li><a href="http://www.freesound.org/people/LittleRobotSoundFactory/sounds/270304/" target="_blank">Collect_Point_00.wav</a> from file LittleRobotSoundFactory</li>
+            <li><a href="http://www.freesound.org/people/NenadSimic/sounds/171697/" target="_blank">Menu Selection Click</a> from file NenadSimic</li>
+            <li><a href="http://www.flashkit.com/loops/Easy_Listening/Easy_Lis-Jay_Berl-6701/index.php" target="_blank">Easy Listening Piano vibes pad</a> from file Jay Berlinsky</li>
+		</ul>
+		
+		<hr>
+        
+        <!--<h3 id="changelog"><strong>M) Changelog</strong> - <a href="#toc">top</a></h3>
+        
+        Version 1.1		
+		<ul>
+			<li>Added background music</li>
+		</ul>
+		
+		<hr>-->
+		
+		<p>Once again, thank you so much for purchasing this game. As I said at the beginning, I'd be glad to help you if you have any questions relating to this game. No guarantees, but I'll do my best to assist. If you have a more general question relating to the games on CodeCanyon, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 		<p>If you like my game, please take a moment to rate it. Thanks!   <img src="assets/images/rate.png" /><img src="assets/images/rate.png" /><img src="assets/images/rate.png" /><img src="assets/images/rate.png" /><img src="assets/images/rate.png" /></p>
+		
+		<p class="append-bottom alt large"><strong><img src="http://www.ten28.com/ss.jpg"></strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
