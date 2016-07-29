@@ -2,12 +2,24 @@
 <questions>
 	<item>
 		<category>IQ Test</category>
-		<question type='text'><![CDATA[In which city were the first Modern Olympics held?]]></question>
-		<answers answerLayout='4type1' correctAnswer='3' answerOffsetY='-30'>
+		<question type='text'><![CDATA[In which city
+		were the first Modern Olympics held?]]></question>
+		<answers answerLayout='4type3' correctAnswer='3'>
 			<answer width='300'>Munich</answer>
 			<answer width='300'>Barcelona</answer>
 			<answer width='300'>Athens</answer>
 			<answer width='300'>Olympia </answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[Which one is snow boarding?]]></question>
+		<answers answerLayout='5type1' correctAnswer='1'>
+			<answer x='200' y='500' type='image'>assets/questions/snowboarding.png</answer>
+			<answer x='380' y='380' type='image'>assets/questions/ski.png</answer>
+			<answer x='580' y='520' type='image'>assets/questions/speed_skating.png</answer>
+			<answer x='780' y='400' type='image'>assets/questions/ski.png</answer>
 		</answers>
 	</item>
 	
@@ -71,8 +83,7 @@
 	<item>
 		<category>IQ Test</category>
 		<question type='text'><![CDATA[In which year were the first Modern Olympics held?]]></question>
-		<answers answerLayout='5type3' correctAnswer='3'>
-			<answer width='250'><![CDATA[1698]]></answer>
+		<answers answerLayout='4type3' correctAnswer='3'>
 			<answer width='250'><![CDATA[1798]]></answer>
 			<answer width='250'><![CDATA[1896 ]]></answer>
 			<answer width='250'><![CDATA[1968 ]]></answer>
@@ -84,7 +95,7 @@
 		<category>IQ Test</category>
 		<question type='text'><![CDATA[Who has won the maximum number of gold medals
 		at a single Olympic Games in the history of the Olympics?]]></question>
-		<answers answerLayout='4type1' correctAnswer='4'>
+		<answers answerLayout='4type2' correctAnswer='4'>
 			<answer><![CDATA[James Connelly]]></answer>
 			<answer><![CDATA[Mark Spitz]]></answer>
 			<answer><![CDATA[Abebe Bikila]]></answer>
@@ -95,7 +106,7 @@
 	<item>
 		<category>IQ Test</category>
 		<question type='text'><![CDATA[At what frequency are the Olympic Games held?]]></question>
-		<answers answerLayout='4type1' correctAnswer='2' answerOffsetY='60'>
+		<answers answerLayout='4type3' correctAnswer='2'>
 			<answer><![CDATA[Every 3 years]]></answer>
 			<answer><![CDATA[Every 4 years]]></answer>
 			<answer><![CDATA[Every 5 years]]></answer>
@@ -117,7 +128,7 @@
 	<item>
 		<category>IQ Test</category>
 		<question type='text'><![CDATA[What metal is used in the third-place medal?]]></question>
-		<answers answerLayout='4type1' correctAnswer='3'>
+		<answers answerLayout='4type2' correctAnswer='3'>
 			<answer><![CDATA[Gold]]></answer>
 			<answer><![CDATA[Silver]]></answer>
 			<answer><![CDATA[Bronze]]></answer>
@@ -128,9 +139,9 @@
 	<item>
 		<category>IQ Test</category>
 		<question type='text'><![CDATA[Which country's team always marches
-		 last in the March Past at the Opening Ceremony of the Olympics?]]>
+		 						last in the March Past at the last of Opening Ceremony ?]]>
 		</question>
-		<answers answerLayout='4type1' correctAnswer='4'>
+		<answers answerLayout='4type3' correctAnswer='4'>
 			<answer><![CDATA[USA]]></answer>
 			<answer><![CDATA[Greece]]></answer>
 			<answer><![CDATA[France]]></answer>
@@ -142,7 +153,7 @@
 		<category>IQ Test</category>
 		<question type='text'><![CDATA[In which city were the Olympics in 2012 held?]]>
 		</question>
-		<answers answerLayout='4type1' correctAnswer='2'>
+		<answers answerLayout='4type3' correctAnswer='2'>
 			<answer><![CDATA[Tokyo]]></answer>
 			<answer><![CDATA[London]]></answer>
 			<answer><![CDATA[France]]></answer>
@@ -152,14 +163,14 @@
 
 	<item>
 		<category>IQ Test</category>
-		<question type='text'><![CDATA[Blue,red and green are three of the five rings of the
-		olympic flag. What are the other two ?]]>
+		<question type='text'><![CDATA[Blue,red and green are three of the five
+								rings of the olympic flag. What are the other two ?]]>
 		</question>
-		<answers answerLayout='4type1' correctAnswer='4'>
-			<answer><![CDATA[Yellow and White]]></answer>
-			<answer><![CDATA[Gold and White]]></answer>
-			<answer><![CDATA[Orange and White]]></answer>
-			<answer><![CDATA[Yellow and Black]]></answer>
+		<answers answerLayout='4type3' correctAnswer='4'>
+			<answer><![CDATA[Yellow & White]]></answer>
+			<answer><![CDATA[Gold & White]]></answer>
+			<answer><![CDATA[Orange & White]]></answer>
+			<answer><![CDATA[Yellow & Black]]></answer>
 		</answers>
 	</item>
 
@@ -167,7 +178,7 @@
 		<category>IQ Test</category>
 		<question type='text'><![CDATA[How many days did the ancient games usually last?]]>
 		</question>
-		<answers answerLayout='4type1' correctAnswer='4'>
+		<answers answerLayout='4type3' correctAnswer='4'>
 			<answer><![CDATA[2 day]]></answer>
 			<answer><![CDATA[3 days]]></answer>
 			<answer><![CDATA[4 days]]></answer>
@@ -188,12 +199,11 @@
 	</item>
 
 	<item>
-	<item>
 		<category>IQ Test</category>
 		<question type='text'><![CDATA[How many rounds are there in an Olympic
 		boxing match?]]>
 		</question>
-		<answers answerLayout='4type1' correctAnswer='3'>
+		<answers answerLayout='4type3' correctAnswer='3'>
 			<answer><![CDATA[2]]></answer>
 			<answer><![CDATA[6]]></answer>
 			<answer><![CDATA[4]]></answer>
@@ -205,7 +215,7 @@
 		<category>IQ Test</category>
 		<question type='text'><![CDATA[In what month did the ancient Olympics take place?]]>
 		</question>
-		<answers answerLayout='4type1' correctAnswer='2'>
+		<answers answerLayout='4type3' correctAnswer='2'>
 			<answer><![CDATA[June]]></answer>
 			<answer><![CDATA[August]]></answer>
 			<answer><![CDATA[September]]></answer>
@@ -215,10 +225,10 @@
 
 	<item>
 		<category>IQ Test</category>
-		<question type='text'><![CDATA[In which stadium will the opening and closing
-		ceremonies be?]]>
+		<question type='text'><![CDATA[In which stadium will the opening
+								and closing ceremonies be?]]>
 		</question>
-		<answers answerLayout='4type1' correctAnswer='4'>
+		<answers answerLayout='4type3' correctAnswer='4'>
 			<answer><![CDATA[Sambadrome]]></answer>
 			<answer><![CDATA[Copacabana Beach]]></answer>
 			<answer><![CDATA[HSBC Arena]]></answer>
