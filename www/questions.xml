@@ -2,12 +2,12 @@
 <questions>
 	<item>
 		<category>IQ Test</category>
-		<question type='text'><![CDATA[How much is 150% of 50]]></question>
-		<answers answerLayout='4type1' correctAnswer='2' answerOffsetY='-30'>
-			<answer width='300'>55</answer>
-			<answer width='300'>75</answer>
-			<answer width='300'>65</answer>
-			<answer width='300'>500</answer>
+		<question type='text'><![CDATA[In which city were the first Modern Olympics held?]]></question>
+		<answers answerLayout='4type1' correctAnswer='3' answerOffsetY='-30'>
+			<answer width='300'>Munich</answer>
+			<answer width='300'>Barcelona</answer>
+			<answer width='300'>Athens</answer>
+			<answer width='300'>Olympia </answer>
 		</answers>
 	</item>
 	
@@ -70,40 +70,36 @@
 	
 	<item>
 		<category>IQ Test</category>
-		<question type='text'><![CDATA[Which number should come
-		next in the series
-		1, 3, 6, 10, 15]]></question>
-		<answers answerLayout='5type3' correctAnswer='4'>
-			<answer width='250'><![CDATA[8]]></answer>
-			<answer width='250'><![CDATA[11]]></answer>
-			<answer width='250'><![CDATA[24]]></answer>
-			<answer width='250'><![CDATA[21]]></answer>
-			<answer width='250'><![CDATA[27]]></answer>
+		<question type='text'><![CDATA[In which year were the first Modern Olympics held?]]></question>
+		<answers answerLayout='5type3' correctAnswer='3'>
+			<answer width='250'><![CDATA[1698]]></answer>
+			<answer width='250'><![CDATA[1798]]></answer>
+			<answer width='250'><![CDATA[1896 ]]></answer>
+			<answer width='250'><![CDATA[1968 ]]></answer>
+			<answer width='250'><![CDATA[1700]]></answer>
 		</answers>
 	</item>
 	
 	<item>
 		<category>IQ Test</category>
-		<question type='text'><![CDATA[10 people shake hand with each other.
-		How many handshakes will there be in total?]]></question>
-		<answers answerLayout='4type3' correctAnswer='3'>
-			<answer><![CDATA[100]]></answer>
-			<answer><![CDATA[20]]></answer>
-			<answer><![CDATA[45]]></answer>
-			<answer><![CDATA[50]]></answer>
+		<question type='text'><![CDATA[Who has won the maximum number of gold medals
+		at a single Olympic Games in the history of the Olympics?]]></question>
+		<answers answerLayout='4type1' correctAnswer='4'>
+			<answer><![CDATA[James Connelly]]></answer>
+			<answer><![CDATA[Mark Spitz]]></answer>
+			<answer><![CDATA[Abebe Bikila]]></answer>
+			<answer><![CDATA[Michael Phelps]]></answer>
 		</answers>
 	</item>
 	
 	<item>
 		<category>IQ Test</category>
-		<question type='text'><![CDATA[A boy keep 3 Mangoes, 6 Eggs, 1 Tomato,
-		2 Apples and 5 Oranges in his bag.
-		How many fruits does he have in total?]]></question>
-		<answers answerLayout='4type3' correctAnswer='4' answerOffsetY='60'>
-			<answer><![CDATA[14]]></answer>
-			<answer><![CDATA[15]]></answer>
-			<answer><![CDATA[11]]></answer>
-			<answer><![CDATA[10]]></answer>
+		<question type='text'><![CDATA[At what frequency are the Olympic Games held?]]></question>
+		<answers answerLayout='4type1' correctAnswer='2' answerOffsetY='60'>
+			<answer><![CDATA[Every 3 years]]></answer>
+			<answer><![CDATA[Every 4 years]]></answer>
+			<answer><![CDATA[Every 5 years]]></answer>
+			<answer><![CDATA[Every 6 years]]></answer>
 		</answers>
 	</item>
 	
@@ -120,68 +116,114 @@
 	
 	<item>
 		<category>IQ Test</category>
-		<question type='text'><![CDATA[You are participating in a race.
-		You overtake the second person.
-		What position are you in?]]></question>
-		<answers answerLayout='3type2' correctAnswer='2'>
-			<answer><![CDATA[First]]></answer>
-			<answer><![CDATA[Second]]></answer>
-			<answer><![CDATA[Third]]></answer>
+		<question type='text'><![CDATA[What metal is used in the third-place medal?]]></question>
+		<answers answerLayout='4type1' correctAnswer='3'>
+			<answer><![CDATA[Gold]]></answer>
+			<answer><![CDATA[Silver]]></answer>
+			<answer><![CDATA[Bronze]]></answer>
+			<answer><![CDATA[Cobalt]]></answer>
 		</answers>
 	</item>
 	
 	<item>
 		<category>IQ Test</category>
-		<question type='text'><![CDATA[Some months have 31 days,
-		some others have 30 days.
-		How many months have 28 days?]]></question>
-		<answers answerLayout='4type3' correctAnswer='3'>
-			<answer><![CDATA[6]]></answer>
+		<question type='text'><![CDATA[Which country's team always marches
+		 last in the March Past at the Opening Ceremony of the Olympics?]]>
+		</question>
+		<answers answerLayout='4type1' correctAnswer='4'>
+			<answer><![CDATA[USA]]></answer>
+			<answer><![CDATA[Greece]]></answer>
+			<answer><![CDATA[France]]></answer>
+			<answer><![CDATA[Host country]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[In which city were the Olympics in 2012 held?]]>
+		</question>
+		<answers answerLayout='4type1' correctAnswer='2'>
+			<answer><![CDATA[Tokyo]]></answer>
+			<answer><![CDATA[London]]></answer>
+			<answer><![CDATA[France]]></answer>
+			<answer><![CDATA[USA]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[Blue,red and green are three of the five rings of the
+		olympic flag. What are the other two ?]]>
+		</question>
+		<answers answerLayout='4type1' correctAnswer='4'>
+			<answer><![CDATA[Yellow and White]]></answer>
+			<answer><![CDATA[Gold and White]]></answer>
+			<answer><![CDATA[Orange and White]]></answer>
+			<answer><![CDATA[Yellow and Black]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[How many days did the ancient games usually last?]]>
+		</question>
+		<answers answerLayout='4type1' correctAnswer='4'>
+			<answer><![CDATA[2 day]]></answer>
+			<answer><![CDATA[3 days]]></answer>
+			<answer><![CDATA[4 days]]></answer>
+			<answer><![CDATA[5 days]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[What do the five rings of the Olympic flag symbolise?]]>
+		</question>
+		<answers answerLayout='4type1' correctAnswer='4'>
+			<answer><![CDATA[The Five Continents]]></answer>
+			<answer><![CDATA[The Five Continents]]></answer>
+			<answer><![CDATA[The Five Continents]]></answer>
+			<answer><![CDATA[The Five Continents]]></answer>
+		</answers>
+	</item>
+
+	<item>
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[How many rounds are there in an Olympic
+		boxing match?]]>
+		</question>
+		<answers answerLayout='4type1' correctAnswer='3'>
 			<answer><![CDATA[2]]></answer>
-			<answer><![CDATA[12]]></answer>
-			<answer><![CDATA[11]]></answer>
+			<answer><![CDATA[6]]></answer>
+			<answer><![CDATA[4]]></answer>
+			<answer><![CDATA[3]]></answer>
 		</answers>
 	</item>
-	
+
 	<item>
-		<category>Test (Audio)</category>
-		<question type='image' audio='assets/sounds/questions/question1.ogg'>assets/questions/tshirt.png</question>
-		<answers answerLayout='4type2' correctAnswer='3'>
-			<answer width="250" x='700' y='350' audio='assets/sounds/questions/question1_a1.ogg'><![CDATA[2]]></answer>
-			<answer width="250" x='700' y='450' audio='assets/sounds/questions/question1_a2.ogg'><![CDATA[3]]></answer>
-			<answer width="250" x='700' y='550' audio='assets/sounds/questions/question1_a3.ogg'><![CDATA[7]]></answer>
-			<answer width="250" x='700' y='650' audio='assets/sounds/questions/question1_a4.ogg'><![CDATA[8]]></answer>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[In what month did the ancient Olympics take place?]]>
+		</question>
+		<answers answerLayout='4type1' correctAnswer='2'>
+			<answer><![CDATA[June]]></answer>
+			<answer><![CDATA[August]]></answer>
+			<answer><![CDATA[September]]></answer>
+			<answer><![CDATA[July]]></answer>
 		</answers>
 	</item>
-	
+
 	<item>
-		<category>Test (Audio)</category>
-		<question type='text' audio='assets/sounds/questions/question2.ogg'><![CDATA[If 1=5, 2=10, 3=15 4=20
-		then 5=?]]></question>
-		<answers answerLayout='6type1' correctAnswer='1'>
-			<answer width='250' audio='assets/sounds/questions/question2_a1.ogg'><![CDATA[1]]></answer>
-			<answer width='250' audio='assets/sounds/questions/question2_a2.ogg'><![CDATA[15]]></answer>
-			<answer width='250' audio='assets/sounds/questions/question2_a3.ogg'><![CDATA[75]]></answer>
-			<answer width='250' audio='assets/sounds/questions/question2_a4.ogg'><![CDATA[60]]></answer>
-			<answer width='250' audio='assets/sounds/questions/question2_a5.ogg'><![CDATA[30]]></answer>
-			<answer width='250' audio='assets/sounds/questions/question2_a6.ogg'><![CDATA[90]]></answer>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[In which stadium will the opening and closing
+		ceremonies be?]]>
+		</question>
+		<answers answerLayout='4type1' correctAnswer='4'>
+			<answer><![CDATA[Sambadrome]]></answer>
+			<answer><![CDATA[Copacabana Beach]]></answer>
+			<answer><![CDATA[HSBC Arena]]></answer>
+			<answer><![CDATA[Maracana Stadium]]></answer>
 		</answers>
 	</item>
-	
-	<item>
-		<category>Test (Audio)</category>
-		<question type='text' audio='assets/sounds/questions/question3.ogg'><![CDATA[Mary's father has 5 daughters, Nana,
-		Nene, Nini, and Nono.
-		Who's the fifth daughter?]]></question>
-		<answers answerLayout='8type2' correctAnswer='7'>
-			<answer audio='assets/sounds/questions/question3_a1.ogg'><![CDATA[Nomo]]></answer>
-			<answer audio='assets/sounds/questions/question3_a2.ogg'><![CDATA[Nuni]]></answer>
-			<answer audio='assets/sounds/questions/question3_a3.ogg'><![CDATA[Neno]]></answer>
-			<answer audio='assets/sounds/questions/question3_a4.ogg'><![CDATA[Nino]]></answer>
-			<answer audio='assets/sounds/questions/question3_a5.ogg'><![CDATA[Nena]]></answer>
-			<answer audio='assets/sounds/questions/question3_a6.ogg'><![CDATA[Nono]]></answer>
-			<answer audio='assets/sounds/questions/question3_a7.ogg'><![CDATA[None]]></answer>
-			<answer audio='assets/sounds/questions/question3_a8.ogg'><![CDATA[Nunu]]></answer>
-		</answers>
-	</item>
+
 </questions>
