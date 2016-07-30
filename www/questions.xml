@@ -4,7 +4,7 @@
   <item>
     <category>IQ Test</category>
     <question type='text'><![CDATA[In which city
-    were the first Modern Olympics held?]]></question>
+    				were the first Modern Olympics held?]]></question>
     <answers answerLayout='4type3' correctAnswer='3'>
       <answer width='300'>Munich</answer>
       <answer width='300'>Barcelona</answer>
@@ -23,6 +23,31 @@
       <answer x='780' y='400' type='image'>assets/questions/ski.png</answer>
     </answers>
   </item>
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[Five sports have been contested
+		at every Summer Olympic Games since 1896.
+		Which is not in that group?]]></question>
+		<answers answerLayout='5type1' correctAnswer='3'>
+			<answer x='200' y='500' type='image'>assets/questions/fencing.jpg</answer>
+			<answer x='380' y='380' type='image'>assets/questions/swimming.jpg</answer>
+			<answer x='580' y='520' type='image'>assets/questions/shooting.jpg</answer>
+			<answer x='780' y='400' type='image'>assets/questions/cycling.jpg</answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[Which country has the most athletes scheduled
+											to compete in Rio?]]></question>
+		<answers answerLayout='5type1' correctAnswer='3'>
+			<answer x='200' y='500' type='image'>assets/questions/brazil.jpg</answer>
+			<answer x='380' y='380' type='image'>assets/questions/china.jpg</answer>
+			<answer x='580' y='520' type='image'>assets/questions/usa.jpg</answer>
+			<answer x='780' y='400' type='image'>assets/questions/korea.jpg</answer>
+		</answers>
+	</item>
   
   <item>
     <category>IQ Test</category>
@@ -72,7 +97,7 @@
   <item>
     <category>IQ Test</category>
     <question type='text'><![CDATA[Which country's team always marches
-    last in the March Past at the last of Opening Ceremony ?]]>
+   						last in the March Past of Opening Ceremony ?]]>
     </question>
     <answers answerLayout='4type3' correctAnswer='4'>
       <answer><![CDATA[USA]]></answer>
@@ -97,7 +122,7 @@
   <item>
     <category>IQ Test</category>
     <question type='text'><![CDATA[Blue,red and green are three of the five
-    rings of the olympic flag. What are the other two ?]]>
+   						 rings of the olympic flag. What are the other two ?]]>
     </question>
     <answers answerLayout='4type3' correctAnswer='4'>
       <answer><![CDATA[Yellow & White]]></answer>
@@ -124,9 +149,9 @@
     <question type='text'><![CDATA[The five rings of the Olympic flag symbolise: ]]>
     </question>
     <answers answerLayout='4type1' correctAnswer='4'>
-      <answer><![CDATA[The Five Continents]]></answer>
-      <answer><![CDATA[The Five Continents]]></answer>
-      <answer><![CDATA[The Five Continents]]></answer>
+      <answer><![CDATA[The Five Ancient God]]></answer>
+      <answer><![CDATA[The Five Country]]></answer>
+      <answer><![CDATA[The Five Rivers]]></answer>
       <answer><![CDATA[The Five Continents]]></answer>
     </answers>
   </item>
@@ -172,10 +197,10 @@
   <item>
     <category>IQ Test</category>
     <question type='text'><![CDATA[Phiedippides ran over 26 miles in 490 BC to deliver
-    the news of a lost battle.He ran from Marathon,
-    where did he run to ?]]>
+    						the news of a lost battle.He ran from Marathon,
+   							where did he run to ?]]>
     </question>
-    <answers answerLayout='4type3' correctAnswer='4'>
+    <answers answerLayout='4type3' correctAnswer='1'>
       <answer><![CDATA[Athens]]></answer>
       <answer><![CDATA[ Rome]]></answer>
       <answer><![CDATA[Carthage]]></answer>
@@ -186,7 +211,7 @@
   <item>
     <category>IQ Test</category>
     <question type='text'><![CDATA[How far is a modern Olympic Marathon,
-    to the nearest mile ?]]>
+    						to the nearest mile ?]]>
     </question>
     <answers answerLayout='4type3' correctAnswer='3'>
       <answer><![CDATA[16 miles]]></answer>
@@ -208,6 +233,153 @@
       <answer><![CDATA[Never]]></answer>
     </answers>
   </item>
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[Which Committee decides
+								where Olympic games will be held ?]]>
+		</question>
+		<answers answerLayout='4type1' correctAnswer='3'>
+			<answer><![CDATA[The International Olympic Board]]></answer>
+			<answer><![CDATA[United Nations Committee on Sport]]></answer>
+			<answer><![CDATA[The International Olympic Committee]]></answer>
+			<answer><![CDATA[The International Sports Committee]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[Over what distance
+		are the men athletics High Hurdles ?]]>
+		</question>
+		<answers answerLayout='4type3' correctAnswer='4 '>
+			<answer><![CDATA[70m]]></answer>
+			<answer><![CDATA[80m]]></answer>
+			<answer><![CDATA[100m]]></answer>
+			<answer><![CDATA[110m]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[How many sports will there be
+							at the 2016 Olympic Games?]]>
+		</question>
+		<answers answerLayout='4type3' correctAnswer='3'>
+			<answer><![CDATA[20]]></answer>
+			<answer><![CDATA[30]]></answer>
+			<answer><![CDATA[28]]></answer>
+			<answer><![CDATA[19]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[How many players, per team,
+						are there for volley ball?]]>
+		</question>
+		<answers answerLayout='4type3' correctAnswer='1'>
+			<answer><![CDATA[6]]></answer>
+			<answer><![CDATA[4]]></answer>
+			<answer><![CDATA[5]]></answer>
+			<answer><![CDATA[8]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[Which country has the lowest number
+								of total Olympic medals per capita ?]]>
+		</question>
+		<answers answerLayout='4type3' correctAnswer='2'>
+			<answer><![CDATA[Brazil]]></answer>
+			<answer><![CDATA[India]]></answer>
+			<answer><![CDATA[Greece]]></answer>
+			<answer><![CDATA[USA]]></answer>
+		</answers>
+	</item>
+
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[The most common surname
+		for an Olympic athlete ?]]>
+		</question>
+		<answers answerLayout='4type3' correctAnswer='3'>
+			<answer><![CDATA[Robert]]></answer>
+			<answer><![CDATA[Alex]]></answer>
+			<answer><![CDATA[Kim]]></answer>
+			<answer><![CDATA[Micheal]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[Which was the first movie
+								to feature the Olympic Games ?]]>
+		</question>
+		<answers answerLayout='4type1' correctAnswer='1'>
+			<answer><![CDATA[Nine and Three-Fifth Seconds]]></answer>
+			<answer><![CDATA[The Olympic Hero]]></answer>
+			<answer><![CDATA[Charlie Chan as the Olympics]]></answer>
+			<answer><![CDATA[A Million to One]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[Which country's track and field athletes
+		 						were banned from the Rio Games following the
+		 						revelation of a doping scandal?]]>
+		</question>
+		<answers answerLayout='4type1' correctAnswer='4'>
+			<answer><![CDATA[Colombia]]></answer>
+			<answer><![CDATA[Qatar]]></answer>
+			<answer><![CDATA[Spain]]></answer>
+			<answer><![CDATA[Russia]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[Which two countries
+		will be competing for the first time?]]>
+		</question>
+		<answers answerLayout='4type1' correctAnswer='3'>
+			<answer><![CDATA[Burundi,Malawi]]></answer>
+			<answer><![CDATA[Iceland,Yemen]]></answer>
+			<answer><![CDATA[South Sudan,Kosovo]]></answer>
+			<answer><![CDATA[Aruba,Laos]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[Which country is the largest,
+		 in terms of population, to never win a gold medal
+		 at the Summer Olympics?]]>
+		</question>
+		<answers answerLayout='4type1' correctAnswer='3'>
+			<answer><![CDATA[Soudi Arabia]]></answer>
+			<answer><![CDATA[Iceland]]></answer>
+			<answer><![CDATA[Bangladesh]]></answer>
+			<answer><![CDATA[Malaysia]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[Which sport comprises the majority of athletes
+		 who have withdrawn from the Games
+		 due to concerns about Zika virus?]]>
+		</question>
+		<answers answerLayout='4type1' correctAnswer='2'>
+			<answer><![CDATA[Sailing]]></answer>
+			<answer><![CDATA[Golf]]></answer>
+			<answer><![CDATA[Wrestling]]></answer>
+			<answer><![CDATA[Beach Volleyball]]></answer>
+		</answers>
+	</item>
 
   <!--<item>-->
     <!--<category>Idiot Test</category>-->
