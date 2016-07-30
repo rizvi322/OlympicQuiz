@@ -333,7 +333,7 @@ function stopAnimateButton(obj){
  * 
  */
 function loadQuestion(){
-	if (questionCountNum % 3 === 0) {
+	if ((questionCountNum +1) % 3 === 0) {
 		if (AdMob) {
 			interstitialAd();
 		}
