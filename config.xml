@@ -1,4 +1,8 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.dteam.OlympicQuiz" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        id="com.dteam.OlympicQuiz"
+        version="1.0.0">
+
   <name>Olympic Quiz Game</name>
   <description>A quiz game based on Olympic 2016.</description>
   <content src="index.html"/>
@@ -26,7 +30,7 @@
   <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2"/>
   <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0"/>
   <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
-  <gap:plugin name="cordova-plugin-admob" source="npm" />
+  <gap:plugin name="com.admob.plugin" version="3.0.0" source="plugins.cordova.io" />
 
   <icon src="icon.ico"/>
 
