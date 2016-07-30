@@ -1,47 +1,60 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Quiz Game</title>
-        
-        <meta name="Title" content="Olympic Quiz" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<!--
+        <meta name="Title" content="Olympic Quiz Game" />
         <meta name="description" content="Olympic Quiz Game is a free general knowledge quiz questions and multiple choice answers on Rio Olympic.">
-		<meta name="keywords" content="quiz, game, olympic, knowledge, questions, choice, answers, rio, 2016, brain, marakana, idiot,brazil">
-        
-        <!-- for Facebook -->
+    		<meta name="keywords" content="quiz, game, olympic, knowledge, questions, choice, answers, rio, 2016, brain, marakana, idiot,brazil">
+
+        &lt;!&ndash; for Facebook &ndash;&gt;
         <meta property="og:title" content="Quiz Game"/>
         <meta property="og:site_name" content="Quiz Game"/>
         <meta property="og:image" content="http://demonisblack.com/code/quizgame/game/share.jpg" />
         <meta property="og:url" content="http://demonisblack.com/code/quizgame/game/" />
         <meta property="og:description" content="Olympic Quiz Game is a free general knowledge quiz questions and multiple choice answers on Rio Olympic.">
-        
-        <!-- for Twitter -->
+
+        &lt;!&ndash; for Twitter &ndash;&gt;
         <meta name="twitter:title" content="Quiz Game" />
         <meta name="twitter:description" content="Olympic Quiz Game is a free general knowledge quiz questions and multiple choice answers on Rio Olympic." />
         <meta name="twitter:image" content="http://demonisblack.com/code/quizgame/game/share.jpg" />
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<script>
-        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-            var msViewportStyle = document.createElement("style");
-            msViewportStyle.appendChild(
-                document.createTextNode(
-                    "@-ms-viewport{width:device-width}"
-                )
-            );
-            document.getElementsByTagName("head")[0].
-                appendChild(msViewportStyle);
-        }
-        </script>
+-->
 
-        <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+        <title>Olympic Quiz Game</title>
+
+        <link rel="shortcut icon" href="icon.png" type="image/x-icon">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+
+        <script type="text/javascript" src="cordova.js"></script>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script>
+            var admobid = {};
+            if( /(android)/i.test(navigator.userAgent) ) {
+                admobid = { // for Android
+                    banner: 'ca-app-pub-7696229031817893/5319744763',
+                    // interstitial: 'ca-app-pub-6869992474017983/1657046752'
+                };
+            } else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
+                admobid = { // for iOS
+    //                banner: 'ca-app-pub-6869992474017983/4806197152',
+    //                interstitial: 'ca-app-pub-6869992474017983/7563979554'
+                };
+            }
+
+            function initApp() {
+                if (AdMob) {
+                    AdMob.createBanner({
+                        adId : admobid.banner,
+                        position : AdMob.AD_POSITION.BOTTOM_CENTER,
+                        autoShow : true
+                    });
+                }
+            }
+
+            document.addEventListener('deviceready', initApp, false);
+        </script>
     </head>
     <body>
         <!-- PERCENT LOADER START-->
@@ -74,9 +87,7 @@
         </div>
         <!-- CONTENT END-->
         
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-        
+        <script src="js/vendor/jquery-1.8.3.min.js"></script>
         <script src="js/vendor/detectmobilebrowser.js"></script>
         <script src="js/vendor/preloadjs-0.6.1.min.js"></script>
         <script src="js/vendor/easeljs-0.8.1.min.js"></script>
@@ -91,15 +102,5 @@
         <script src="js/main.js"></script>
         <script src="js/loader.js"></script>
         <script src="js/init.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		  ga('create', 'UA-424386-45', 'auto');
-		  ga('send', 'pageview');
-		</script>
     </body>
 </html>
