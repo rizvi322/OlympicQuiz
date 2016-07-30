@@ -1,44 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <questions>
 
-  <item>
-    <category>IQ Test</category>
-    <question type='text'><![CDATA[In which city
-    				were the first Modern Olympics held?]]></question>
-    <answers answerLayout='4type3' correctAnswer='3'>
-      <answer width='300'>Munich</answer>
-      <answer width='300'>Barcelona</answer>
-      <answer width='300'>Athens</answer>
-      <answer width='300'>Olympia </answer>
-    </answers>
-  </item>
-
-  <item>
-    <category>IQ Test</category>
-    <question type='text'><![CDATA[Which one is snow boarding?]]></question>
-    <answers answerLayout='5type1' correctAnswer='1'>
-      <answer x='200' y='500' type='image'>assets/questions/snowboarding.png</answer>
-      <answer x='380' y='380' type='image'>assets/questions/ski.png</answer>
-      <answer x='580' y='520' type='image'>assets/questions/speed_skating.png</answer>
-      <answer x='780' y='400' type='image'>assets/questions/ski.png</answer>
-    </answers>
-  </item>
-
 	<item>
-		<category>IQ Test</category>
-		<question type='text'><![CDATA[Five sports have been contested
-		at every Summer Olympic Games since 1896.
-		Which is not in that group?]]></question>
-		<answers answerLayout='5type1' correctAnswer='3'>
-			<answer x='200' y='500' type='image'>assets/questions/fencing.jpg</answer>
-			<answer x='380' y='380' type='image'>assets/questions/swimming.jpg</answer>
-			<answer x='580' y='520' type='image'>assets/questions/shooting.jpg</answer>
-			<answer x='780' y='400' type='image'>assets/questions/cycling.jpg</answer>
-		</answers>
-	</item>
-
-	<item>
-		<category>IQ Test</category>
+		<category>Set 1</category>
 		<question type='text'><![CDATA[Which country has the most athletes scheduled
 											to compete in Rio?]]></question>
 		<answers answerLayout='5type1' correctAnswer='3'>
@@ -50,7 +14,7 @@
 	</item>
   
   <item>
-    <category>IQ Test</category>
+    <category>Set 1</category>
     <question type='text'><![CDATA[In which year were the first Modern Olympics held?]]></question>
     <answers answerLayout='4type3' correctAnswer='2'>
       <answer width='250'><![CDATA[1798]]></answer>
@@ -61,7 +25,7 @@
   </item>
   
   <item>
-    <category>IQ Test</category>
+    <category>Set 1</category>
     <question type='text'><![CDATA[Who has won the maximum number of gold medals
     at a single Olympic Games ?]]></question>
     <answers answerLayout='4type3' correctAnswer='4'>
@@ -73,7 +37,7 @@
   </item>
   
   <item>
-    <category>IQ Test</category>
+    <category>Set 1</category>
     <question type='text'><![CDATA[At what frequency are the Olympic Games held?]]></question>
     <answers answerLayout='4type3' correctAnswer='2'>
       <answer><![CDATA[Every 3 years]]></answer>
@@ -84,7 +48,7 @@
   </item>
   
   <item>
-    <category>IQ Test</category>
+    <category>Set 1</category>
     <question type='text'><![CDATA[What metal is used in the third-place medal?]]></question>
     <answers answerLayout='4type3' correctAnswer='3'>
       <answer><![CDATA[Gold]]></answer>
@@ -95,7 +59,7 @@
   </item>
   
   <item>
-    <category>IQ Test</category>
+    <category>Set 1</category>
     <question type='text'><![CDATA[Which country's team always marches
    						last in the March Past of Opening Ceremony ?]]>
     </question>
@@ -108,7 +72,7 @@
   </item>
 
   <item>
-    <category>IQ Test</category>
+    <category>Set 1</category>
     <question type='text'><![CDATA[In which city were the Olympics in 2012 held?]]>
     </question>
     <answers answerLayout='4type3' correctAnswer='2'>
@@ -120,7 +84,7 @@
   </item>
 
   <item>
-    <category>IQ Test</category>
+    <category>Set 1</category>
     <question type='text'><![CDATA[Blue,red and green are three of the five
    						 rings of the olympic flag. What are the other two ?]]>
     </question>
@@ -133,7 +97,7 @@
   </item>
 
   <item>
-    <category>IQ Test</category>
+    <category>Set 1</category>
     <question type='text'><![CDATA[How many days did the ancient games usually last?]]>
     </question>
     <answers answerLayout='4type3' correctAnswer='4'>
@@ -145,7 +109,7 @@
   </item>
 
   <item>
-    <category>IQ Test</category>
+    <category>Set 1</category>
     <question type='text'><![CDATA[The five rings of the Olympic flag symbolise: ]]>
     </question>
     <answers answerLayout='4type1' correctAnswer='4'>
@@ -157,7 +121,7 @@
   </item>
 
   <item>
-    <category>IQ Test</category>
+    <category>Set 2</category>
     <question type='text'><![CDATA[How many rounds are there in an Olympic
     boxing match?]]>
     </question>
@@ -170,7 +134,7 @@
   </item>
 
   <item>
-    <category>IQ Test</category>
+    <category>Set 2</category>
     <question type='text'><![CDATA[In what month did the ancient Olympics take place?]]>
     </question>
     <answers answerLayout='4type3' correctAnswer='2'>
@@ -182,7 +146,7 @@
   </item>
 
   <item>
-    <category>IQ Test</category>
+    <category>Set 2</category>
     <question type='text'><![CDATA[In which stadium will the opening
     and closing ceremonies be?]]>
     </question>
@@ -195,7 +159,7 @@
   </item>
 
   <item>
-    <category>IQ Test</category>
+    <category>Set 2</category>
     <question type='text'><![CDATA[Phiedippides ran over 26 miles in 490 BC to deliver
     						the news of a lost battle.He ran from Marathon,
    							where did he run to ?]]>
@@ -209,7 +173,20 @@
   </item>
 
   <item>
-    <category>IQ Test</category>
+    <category>Set 2</category>
+    <question type='text'><![CDATA[Five sports have been contested
+		at every Summer Olympic Games since 1896.
+		Which is not in that group?]]></question>
+    <answers answerLayout='5type1' correctAnswer='3'>
+      <answer x='200' y='500' type='image'>assets/questions/fencing.jpg</answer>
+      <answer x='380' y='380' type='image'>assets/questions/swimming.jpg</answer>
+      <answer x='580' y='520' type='image'>assets/questions/shooting.jpg</answer>
+      <answer x='780' y='400' type='image'>assets/questions/cycling.jpg</answer>
+    </answers>
+  </item>
+
+  <item>
+    <category>Set 2</category>
     <question type='text'><![CDATA[How far is a modern Olympic Marathon,
     						to the nearest mile ?]]>
     </question>
@@ -222,7 +199,7 @@
   </item>
 
   <item>
-    <category>IQ Test</category>
+    <category>Set 2</category>
     <question type='text'><![CDATA[How many times have the Olympic games been
     cancelled due to war since 1896 ?]]>
     </question>
@@ -235,7 +212,7 @@
   </item>
 
 	<item>
-		<category>IQ Test</category>
+		<category>Set 2</category>
 		<question type='text'><![CDATA[Which Committee decides
 								where Olympic games will be held ?]]>
 		</question>
@@ -248,7 +225,7 @@
 	</item>
 
 	<item>
-		<category>IQ Test</category>
+		<category>Set 2</category>
 		<question type='text'><![CDATA[Over what distance
 		are the men athletics High Hurdles ?]]>
 		</question>
@@ -261,7 +238,7 @@
 	</item>
 
 	<item>
-		<category>IQ Test</category>
+		<category>Set 2</category>
 		<question type='text'><![CDATA[How many sports will there be
 							at the 2016 Olympic Games?]]>
 		</question>
@@ -274,7 +251,7 @@
 	</item>
 
 	<item>
-		<category>IQ Test</category>
+		<category>Set 3</category>
 		<question type='text'><![CDATA[How many players, per team,
 						are there for volley ball?]]>
 		</question>
@@ -287,7 +264,7 @@
 	</item>
 
 	<item>
-		<category>IQ Test</category>
+		<category>Set 3</category>
 		<question type='text'><![CDATA[Which country has the lowest number
 								of total Olympic medals per capita ?]]>
 		</question>
@@ -299,9 +276,8 @@
 		</answers>
 	</item>
 
-
 	<item>
-		<category>IQ Test</category>
+		<category>Set 3</category>
 		<question type='text'><![CDATA[The most common surname
 		for an Olympic athlete ?]]>
 		</question>
@@ -314,7 +290,7 @@
 	</item>
 
 	<item>
-		<category>IQ Test</category>
+		<category>Set 3</category>
 		<question type='text'><![CDATA[Which was the first movie
 								to feature the Olympic Games ?]]>
 		</question>
@@ -327,7 +303,7 @@
 	</item>
 
 	<item>
-		<category>IQ Test</category>
+		<category>Set 3</category>
 		<question type='text'><![CDATA[Which country's track and field athletes
 		 						were banned from the Rio Games following the
 		 						revelation of a doping scandal?]]>
@@ -341,7 +317,7 @@
 	</item>
 
 	<item>
-		<category>IQ Test</category>
+		<category>Set 3</category>
 		<question type='text'><![CDATA[Which two countries
 		will be competing for the first time?]]>
 		</question>
@@ -354,7 +330,7 @@
 	</item>
 
 	<item>
-		<category>IQ Test</category>
+		<category>Set 3</category>
 		<question type='text'><![CDATA[Which country is the largest,
 		 in terms of population, to never win a gold medal
 		 at the Summer Olympics?]]>
@@ -367,8 +343,19 @@
 		</answers>
 	</item>
 
+  <item>
+    <category>Set 3</category>
+    <question type='text'><![CDATA[Which one is snow boarding?]]></question>
+    <answers answerLayout='5type1' correctAnswer='1'>
+      <answer x='200' y='500' type='image'>assets/questions/snowboarding.png</answer>
+      <answer x='380' y='380' type='image'>assets/questions/ski.png</answer>
+      <answer x='580' y='520' type='image'>assets/questions/speed_skating.png</answer>
+      <answer x='780' y='400' type='image'>assets/questions/ski.png</answer>
+    </answers>
+  </item>
+
 	<item>
-		<category>IQ Test</category>
+		<category>Set 3</category>
 		<question type='text'><![CDATA[Which sport comprises the majority of athletes
 		 who have withdrawn from the Games
 		 due to concerns about Zika virus?]]>
@@ -381,15 +368,16 @@
 		</answers>
 	</item>
 
-  <!--<item>-->
-    <!--<category>Idiot Test</category>-->
-    <!--<question type='image'>assets/questions/twins.png</question>-->
-    <!--<answers answerLayout='4type2' correctAnswer='2' answerOffsetY='200'>-->
-      <!--<answer><![CDATA[3]]></answer>-->
-      <!--<answer><![CDATA[4]]></answer>-->
-      <!--<answer><![CDATA[5]]></answer>-->
-      <!--<answer><![CDATA[8]]></answer>-->
-    <!--</answers>-->
-  <!--</item>-->
+  <item>
+    <category>Set 3</category>
+    <question type='text'><![CDATA[In which city
+    				were the first Modern Olympics held?]]></question>
+    <answers answerLayout='4type3' correctAnswer='3'>
+      <answer width='300'>Munich</answer>
+      <answer width='300'>Barcelona</answer>
+      <answer width='300'>Athens</answer>
+      <answer width='300'>Olympia </answer>
+    </answers>
+  </item>
 
 </questions>
