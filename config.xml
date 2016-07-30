@@ -3,7 +3,7 @@
         id="com.dteam.OlympicQuiz"
         version="1.0.0">
 
-  <name>Rio Olympic 2016 Quiz Game</name>
+  <name>Free Quiz Game - Rio Olympic 2016</name>
   <description>A quiz game based on Rio Olympic 2016.</description>
   <content src="index.html"/>
   <access origin="*"/>
