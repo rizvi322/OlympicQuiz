@@ -64,9 +64,12 @@
 
             function initApp() {
                 console.log("Hello world.")
-                if (admob) {
-                    admob.initAdmob(admobid.banner, "")
-                    admob.showBanner(admob.BannerSize.BANNER, admob.Position.BOTTOM_APP);
+                if (AdMob) {
+                    AdMob.createBanner({
+                        adId : admobid.banner,
+                        position : AdMob.AD_POSITION.BOTTOM_CENTER,
+                        autoShow : true
+                    });
                 }
             }
 
