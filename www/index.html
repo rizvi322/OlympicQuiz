@@ -47,6 +47,7 @@
                 AdMob.createBanner({
                     adId : admobid.banner,
                     position : AdMob.AD_POSITION.BOTTOM_CENTER,
+                    overlap: true,
                     isTesting: true,
                     autoShow : true
                 });
@@ -56,7 +57,7 @@
                 AdMob.prepareInterstitial({
                     adId: admobid.interstitial,
                     isTesting: true,
-                    autoShow: false
+                    autoShow: true
                 });
             }
 
@@ -64,8 +65,6 @@
                 if (AdMob) {
                     bannerAd();
                     interstitialAd();
-
-                    AdMob.showInterstitial();
                     loadInterstitialAd();
                 }
             }
@@ -74,7 +73,7 @@
                 setInterval(function() {
                     if (questionCountNum % 3 == 0) {
                         if (AdMob) {
-                            AdMob.showInterstitial();
+                            interstitialAd();
                         }
                     }
                 }, 1000);
