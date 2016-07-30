@@ -30,10 +30,11 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script>
             var admobid = {};
+
             if( /(android)/i.test(navigator.userAgent) ) {
                 admobid = { // for Android
                     banner: 'ca-app-pub-7696229031817893/5319744763',
-                    // interstitial: 'ca-app-pub-6869992474017983/1657046752'
+                    interstitial: 'ca-app-pub-7696229031817893/6759451962'
                 };
             } else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
                 admobid = { // for iOS
@@ -51,6 +52,13 @@
                     });
                 }
             }
+
+            setInterval(function(){
+                if (AdMob) {
+                    AdMob.removeBanner();
+                    initApp();
+                }
+            }, 30000);
 
             document.addEventListener('deviceready', initApp, false);
         </script>
