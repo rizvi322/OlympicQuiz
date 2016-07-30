@@ -47,7 +47,7 @@
                 AdMob.createBanner({
                     adId : admobid.banner,
                     position : AdMob.AD_POSITION.BOTTOM_CENTER,
-                    overlap: true,
+//                    overlap: true,
                     isTesting: true,
                     autoShow : true
                 });
@@ -61,6 +61,14 @@
                 });
             }
 
+            function checkAndLoadAd() {
+                if (questionCountNum % 3 == 0) {
+                    if (AdMob) {
+                        AdMob.showInterstitial();
+                    }
+                }
+            }
+
             function initApp() {
                 if (AdMob) {
                     bannerAd();
@@ -68,15 +76,7 @@
                     AdMob.showInterstitial();
                 }
 
-                function checkAndLoadAd() {
-                    if (questionCountNum % 3 == 0) {
-                        if (AdMob) {
-                            AdMob.showInterstitial();
-                        }
-                    }
-                }
-
-                setInterval(checkAndLoadAd(), 1000);
+                setInterval(checkAndLoadAd, 5000);
 
                 setInterval(function(){
                     if (AdMob) {
