@@ -18,7 +18,7 @@ function checkMobileEvent(){
 				checkMobileOrientation();
 			}, 1000);
 		});
-		checkMobileOrientation();
+		// checkMobileOrientation();
 	}
 }
 
