@@ -33,7 +33,7 @@
   <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
   <gap:plugin name="cordova-plugin-admobpro" source="npm" />
 
-  <icon src="icon.ico"/>
+  <icon src="icon.png"/>
 
   <platform name="android">
     <icon src="www/res/icon/android/drawable-ldpi-icon.png" density="ldpi"/>
