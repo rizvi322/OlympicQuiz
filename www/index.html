@@ -57,7 +57,7 @@
                 AdMob.prepareInterstitial({
                     adId: admobid.interstitial,
                     isTesting: true,
-                    autoShow: true
+                    autoShow: false
                 });
             }
 
@@ -65,23 +65,26 @@
                 if (AdMob) {
                     bannerAd();
                     interstitialAd();
+                    AdMob.showInterstitial();
                 }
-            }
 
-            setInterval(function() {
-                if (questionCountNum % 3 == 0) {
-                    if (AdMob) {
-                        interstitialAd();
+                function checkAndLoadAd() {
+                    if (questionCountNum % 3 == 0) {
+                        if (AdMob) {
+                            AdMob.showInterstitial();
+                        }
                     }
                 }
-            }, 1000);
 
-            setInterval(function(){
-                if (AdMob) {
-                    AdMob.removeBanner();
-                    bannerAd();
-                }
-            }, 10000);
+                setInterval(checkAndLoadAd, 1000);
+
+                setInterval(function(){
+                    if (AdMob) {
+                        AdMob.removeBanner();
+                        bannerAd();
+                    }
+                }, 10000);
+            }
 
             document.addEventListener('deviceready', initApp, false);
         </script>
