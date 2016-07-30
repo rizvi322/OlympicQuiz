@@ -337,13 +337,6 @@ function loadQuestion(){
 	resetQuestion();
 	imageFest=[];
 	
-	if ((questionCountNum) % 3 == 0) {
-		if (AdMob) {
-			AdMob.prepareInterstitial(admobid.interstitial)
-			AdMob.showInterstitial();
-		}
-	}
-	
 	sequenceCountNum = sequence_arr[questionCountNum];
 	if(question_arr[sequenceCountNum].type == 'image'){
 		imageFest.push({src:question_arr[sequenceCountNum].question, id:'questionImage'})

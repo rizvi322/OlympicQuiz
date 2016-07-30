@@ -48,9 +48,32 @@
                     AdMob.createBanner({
                         adId : admobid.banner,
                         position : AdMob.AD_POSITION.BOTTOM_CENTER,
+                        isTesting: true,
                         autoShow : true
                     });
+
+                    AdMob.prepareInterstitial({
+                        adId: admobid.interstitial,
+                        isTesting: true,
+                        autoShow: true
+                    });
                 }
+
+                loadInterstitialAd();
+            }
+
+            function loadInterstitialAd() {
+                setInterval(function(){
+                    if (questionCountNum % 3 == 0) {
+                        if (AdMob) {
+                            AdMob.prepareInterstitial({
+                                adId: admobid.interstitial,
+                                isTesting: true,
+                                autoShow: true
+                            });
+                        }
+                    }
+                }, 1000);
             }
 
             setInterval(function(){
@@ -58,7 +81,7 @@
                     AdMob.removeBanner();
                     initApp();
                 }
-            }, 30000);
+            }, 10000);
 
             document.addEventListener('deviceready', initApp, false);
         </script>
