@@ -43,34 +43,37 @@
                 };
             }
 
+            function bannerAd() {
+                AdMob.createBanner({
+                    adId : admobid.banner,
+                    position : AdMob.AD_POSITION.BOTTOM_CENTER,
+                    isTesting: true,
+                    autoShow : true
+                });
+            }
+
+            function interstitialAd() {
+                AdMob.prepareInterstitial({
+                    adId: admobid.interstitial,
+                    isTesting: true,
+                    autoShow: true
+                });
+            }
+
             function initApp() {
                 if (AdMob) {
-                    AdMob.createBanner({
-                        adId : admobid.banner,
-                        position : AdMob.AD_POSITION.BOTTOM_CENTER,
-                        isTesting: true,
-                        autoShow : true
-                    });
-
-                    AdMob.prepareInterstitial({
-                        adId: admobid.interstitial,
-                        isTesting: true,
-                        autoShow: true
-                    });
+                    bannerAd();
+                    interstitialAd();
                 }
 
                 loadInterstitialAd();
             }
 
             function loadInterstitialAd() {
-                setInterval(function(){
+                setInterval(function() {
                     if (questionCountNum % 3 == 0) {
                         if (AdMob) {
-                            AdMob.prepareInterstitial({
-                                adId: admobid.interstitial,
-                                isTesting: true,
-                                autoShow: true
-                            });
+                            interstitialAd();
                         }
                     }
                 }, 1000);
@@ -79,7 +82,7 @@
             setInterval(function(){
                 if (AdMob) {
                     AdMob.removeBanner();
-                    initApp();
+                    bannerAd();
                 }
             }, 10000);
 
