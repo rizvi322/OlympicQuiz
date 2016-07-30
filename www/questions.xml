@@ -24,66 +24,9 @@
 	</item>
 	
 	<item>
-		<category>Idiot Test</category>
-		<question type='image'>assets/questions/twins.png</question>
-		<answers answerLayout='4type2' correctAnswer='2' answerOffsetY='200'>
-			<answer><![CDATA[3]]></answer>
-			<answer><![CDATA[4]]></answer>
-			<answer><![CDATA[5]]></answer>
-			<answer><![CDATA[8]]></answer>
-		</answers>
-	</item>
-	
-	<item>
-		<category>Idiot Test</category>
-		<question type='text'><![CDATA[Which number is bigger?]]></question>
-		<answers answerLayout='5type1' correctAnswer='3'>
-			<answer x='200' y='500' type='image'>assets/questions/number1.png</answer>
-			<answer x='380' y='380' type='image'>assets/questions/number2.png</answer>
-			<answer x='580' y='520' type='image'>assets/questions/number3.png</answer>
-			<answer x='780' y='400' type='image'>assets/questions/number4.png</answer>
-		</answers>
-	</item>
-	
-	<item>
-		<category>Idiot Test</category>
-		<question type='image'>assets/questions/parking.png</question>
-		<answers answerLayout='4type2' correctAnswer='4' answerOffsetY='120'>
-			<answer><![CDATA[100]]></answer>
-			<answer><![CDATA[07]]></answer>
-			<answer><![CDATA[69]]></answer>
-			<answer><![CDATA[87]]></answer>
-		</answers>
-	</item>
-	
-	<item>
-		<category>Idiot Test</category>
-		<question type='text'><![CDATA[Which screw needs a bigger
-		screwdriver?]]></question>
-		<answers answerLayout='3type3' correctAnswer='1'>
-			<answer type='image'>assets/questions/screwdriver1.png</answer>
-			<answer type='image'>assets/questions/screwdriver2.png</answer>
-			<answer type='image'>assets/questions/screwdriver3.png</answer>
-		</answers>
-	</item>
-	
-	<item>
-		<category>Idiot Test</category>
-		<question type='text'><![CDATA[Which one of the five is least
-		like the other four?]]></question>
-		<answers answerLayout='5type1' correctAnswer='4'>
-			<answer width='350'><![CDATA[Dog]]></answer>
-			<answer width='350'><![CDATA[Mouse]]></answer>
-			<answer width='350'><![CDATA[Lion]]></answer>
-			<answer width='350'><![CDATA[Snake]]></answer>
-			<answer width='350'><![CDATA[Elephant]]></answer>
-		</answers>
-	</item>
-	
-	<item>
 		<category>IQ Test</category>
 		<question type='text'><![CDATA[In which year were the first Modern Olympics held?]]></question>
-		<answers answerLayout='4type3' correctAnswer='3'>
+		<answers answerLayout='4type3' correctAnswer='2'>
 			<answer width='250'><![CDATA[1798]]></answer>
 			<answer width='250'><![CDATA[1896 ]]></answer>
 			<answer width='250'><![CDATA[1968 ]]></answer>
@@ -94,8 +37,8 @@
 	<item>
 		<category>IQ Test</category>
 		<question type='text'><![CDATA[Who has won the maximum number of gold medals
-		at a single Olympic Games in the history of the Olympics?]]></question>
-		<answers answerLayout='4type2' correctAnswer='4'>
+									at a single Olympic Games ?]]></question>
+		<answers answerLayout='4type3' correctAnswer='4'>
 			<answer><![CDATA[James Connelly]]></answer>
 			<answer><![CDATA[Mark Spitz]]></answer>
 			<answer><![CDATA[Abebe Bikila]]></answer>
@@ -115,20 +58,9 @@
 	</item>
 	
 	<item>
-		<category>Idiot Test</category>
-		<question type='text'><![CDATA[.sdrawkcab noitseuq siht rewsnA]]></question>
-		<answers answerLayout='4type1' correctAnswer='1' answerOffsetY='-50'>
-			<answer width='500'><![CDATA[K.O]]></answer>
-			<answer width='500'><![CDATA[What?]]></answer>
-			<answer width='500'><![CDATA[I don't understand]]></answer>
-			<answer width='500'><![CDATA[Pass]]></answer>
-		</answers>
-	</item>
-	
-	<item>
 		<category>IQ Test</category>
 		<question type='text'><![CDATA[What metal is used in the third-place medal?]]></question>
-		<answers answerLayout='4type2' correctAnswer='3'>
+		<answers answerLayout='4type3' correctAnswer='3'>
 			<answer><![CDATA[Gold]]></answer>
 			<answer><![CDATA[Silver]]></answer>
 			<answer><![CDATA[Bronze]]></answer>
@@ -188,7 +120,7 @@
 
 	<item>
 		<category>IQ Test</category>
-		<question type='text'><![CDATA[What do the five rings of the Olympic flag symbolise?]]>
+		<question type='text'><![CDATA[The five rings of the Olympic flag symbolise: ]]>
 		</question>
 		<answers answerLayout='4type1' correctAnswer='4'>
 			<answer><![CDATA[The Five Continents]]></answer>
@@ -230,9 +162,118 @@
 		</question>
 		<answers answerLayout='4type3' correctAnswer='4'>
 			<answer><![CDATA[Sambadrome]]></answer>
-			<answer><![CDATA[Copacabana Beach]]></answer>
+			<answer><![CDATA[Copacabana]]></answer>
 			<answer><![CDATA[HSBC Arena]]></answer>
-			<answer><![CDATA[Maracana Stadium]]></answer>
+			<answer><![CDATA[Maracana]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[Phiedippides ran over 26 miles in 490 BC to deliver
+		the news of a lost battle.He ran from Marathon,
+		 where did he run to ?]]>
+		</question>
+		<answers answerLayout='4type3' correctAnswer='4'>
+			<answer><![CDATA[Athens]]></answer>
+			<answer><![CDATA[ Rome]]></answer>
+			<answer><![CDATA[Carthage]]></answer>
+			<answer><![CDATA[Oreos]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[How far is a modern Olympic Marathon,
+								to the nearest mile ?]]>
+		</question>
+		<answers answerLayout='4type3' correctAnswer='3'>
+			<answer><![CDATA[16 miles]]></answer>
+			<answer><![CDATA[18 miles]]></answer>
+			<answer><![CDATA[26 miles]]></answer>
+			<answer><![CDATA[28 miles]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>IQ Test</category>
+		<question type='text'><![CDATA[How many times have the Olympic games been
+		 						cancelled due to war since 1896 ?]]>
+		</question>
+		<answers answerLayout='4type3' correctAnswer='3'>
+			<answer><![CDATA[Twice]]></answer>
+			<answer><![CDATA[Once]]></answer>
+			<answer><![CDATA[Three Time]]></answer>
+			<answer><![CDATA[Never]]></answer>
+		</answers>
+	</item>
+
+
+	<item>
+		<category>Idiot Test</category>
+		<question type='image'>assets/questions/twins.png</question>
+		<answers answerLayout='4type2' correctAnswer='2' answerOffsetY='200'>
+			<answer><![CDATA[3]]></answer>
+			<answer><![CDATA[4]]></answer>
+			<answer><![CDATA[5]]></answer>
+			<answer><![CDATA[8]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>Idiot Test</category>
+		<question type='text'><![CDATA[Which number is bigger?]]></question>
+		<answers answerLayout='5type1' correctAnswer='3'>
+			<answer x='200' y='500' type='image'>assets/questions/number1.png</answer>
+			<answer x='380' y='380' type='image'>assets/questions/number2.png</answer>
+			<answer x='580' y='520' type='image'>assets/questions/number3.png</answer>
+			<answer x='780' y='400' type='image'>assets/questions/number4.png</answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>Idiot Test</category>
+		<question type='image'>assets/questions/parking.png</question>
+		<answers answerLayout='4type2' correctAnswer='4' answerOffsetY='120'>
+			<answer><![CDATA[100]]></answer>
+			<answer><![CDATA[07]]></answer>
+			<answer><![CDATA[69]]></answer>
+			<answer><![CDATA[87]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>Idiot Test</category>
+		<question type='text'><![CDATA[Which screw needs a bigger
+		screwdriver?]]></question>
+		<answers answerLayout='3type3' correctAnswer='1'>
+			<answer type='image'>assets/questions/screwdriver1.png</answer>
+			<answer type='image'>assets/questions/screwdriver2.png</answer>
+			<answer type='image'>assets/questions/screwdriver3.png</answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>Idiot Test</category>
+		<question type='text'><![CDATA[Which one of the five is least
+		like the other four?]]></question>
+		<answers answerLayout='5type1' correctAnswer='4'>
+			<answer width='350'><![CDATA[Dog]]></answer>
+			<answer width='350'><![CDATA[Mouse]]></answer>
+			<answer width='350'><![CDATA[Lion]]></answer>
+			<answer width='350'><![CDATA[Snake]]></answer>
+			<answer width='350'><![CDATA[Elephant]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>Idiot Test</category>
+		<question type='text'><![CDATA[.sdrawkcab noitseuq siht rewsnA]]></question>
+		<answers answerLayout='4type1' correctAnswer='1' answerOffsetY='-50'>
+			<answer width='500'><![CDATA[K.O]]></answer>
+			<answer width='500'><![CDATA[What?]]></answer>
+			<answer width='500'><![CDATA[I don't understand]]></answer>
+			<answer width='500'><![CDATA[Pass]]></answer>
 		</answers>
 	</item>
 
