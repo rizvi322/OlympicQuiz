@@ -333,11 +333,11 @@ function stopAnimateButton(obj){
  * 
  */
 function loadQuestion(){
-	// if (questionCountNum % 3 == 0) {
+	if (questionCountNum % 3 === 0) {
 		if (AdMob) {
 			interstitialAd();
 		}
-	// }
+	}
 	toggleQuestionLoader(true);
 	resetQuestion();
 	imageFest=[];
