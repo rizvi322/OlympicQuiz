@@ -1,280 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <questions>
-	<item>
-		<category>IQ Test</category>
-		<question type='text'><![CDATA[In which city
-		were the first Modern Olympics held?]]></question>
-		<answers answerLayout='4type3' correctAnswer='3'>
-			<answer width='300'>Munich</answer>
-			<answer width='300'>Barcelona</answer>
-			<answer width='300'>Athens</answer>
-			<answer width='300'>Olympia </answer>
-		</answers>
-	</item>
 
-	<item>
-		<category>IQ Test</category>
-		<question type='text'><![CDATA[Which one is snow boarding?]]></question>
-		<answers answerLayout='5type1' correctAnswer='1'>
-			<answer x='200' y='500' type='image'>assets/questions/snowboarding.png</answer>
-			<answer x='380' y='380' type='image'>assets/questions/ski.png</answer>
-			<answer x='580' y='520' type='image'>assets/questions/speed_skating.png</answer>
-			<answer x='780' y='400' type='image'>assets/questions/ski.png</answer>
-		</answers>
-	</item>
-	
-	<item>
-		<category>IQ Test</category>
-		<question type='text'><![CDATA[In which year were the first Modern Olympics held?]]></question>
-		<answers answerLayout='4type3' correctAnswer='2'>
-			<answer width='250'><![CDATA[1798]]></answer>
-			<answer width='250'><![CDATA[1896 ]]></answer>
-			<answer width='250'><![CDATA[1968 ]]></answer>
-			<answer width='250'><![CDATA[1700]]></answer>
-		</answers>
-	</item>
-	
-	<item>
-		<category>IQ Test</category>
-		<question type='text'><![CDATA[Who has won the maximum number of gold medals
-									at a single Olympic Games ?]]></question>
-		<answers answerLayout='4type3' correctAnswer='4'>
-			<answer><![CDATA[James Connelly]]></answer>
-			<answer><![CDATA[Mark Spitz]]></answer>
-			<answer><![CDATA[Abebe Bikila]]></answer>
-			<answer><![CDATA[Michael Phelps]]></answer>
-		</answers>
-	</item>
-	
-	<item>
-		<category>IQ Test</category>
-		<question type='text'><![CDATA[At what frequency are the Olympic Games held?]]></question>
-		<answers answerLayout='4type3' correctAnswer='2'>
-			<answer><![CDATA[Every 3 years]]></answer>
-			<answer><![CDATA[Every 4 years]]></answer>
-			<answer><![CDATA[Every 5 years]]></answer>
-			<answer><![CDATA[Every 6 years]]></answer>
-		</answers>
-	</item>
-	
-	<item>
-		<category>IQ Test</category>
-		<question type='text'><![CDATA[What metal is used in the third-place medal?]]></question>
-		<answers answerLayout='4type3' correctAnswer='3'>
-			<answer><![CDATA[Gold]]></answer>
-			<answer><![CDATA[Silver]]></answer>
-			<answer><![CDATA[Bronze]]></answer>
-			<answer><![CDATA[Cobalt]]></answer>
-		</answers>
-	</item>
-	
-	<item>
-		<category>IQ Test</category>
-		<question type='text'><![CDATA[Which country's team always marches
-		 						last in the March Past at the last of Opening Ceremony ?]]>
-		</question>
-		<answers answerLayout='4type3' correctAnswer='4'>
-			<answer><![CDATA[USA]]></answer>
-			<answer><![CDATA[Greece]]></answer>
-			<answer><![CDATA[France]]></answer>
-			<answer><![CDATA[Host country]]></answer>
-		</answers>
-	</item>
+  <item>
+    <category>IQ Test</category>
+    <question type='text'><![CDATA[In which city
+    were the first Modern Olympics held?]]></question>
+    <answers answerLayout='4type3' correctAnswer='3'>
+      <answer width='300'>Munich</answer>
+      <answer width='300'>Barcelona</answer>
+      <answer width='300'>Athens</answer>
+      <answer width='300'>Olympia </answer>
+    </answers>
+  </item>
 
-	<item>
-		<category>IQ Test</category>
-		<question type='text'><![CDATA[In which city were the Olympics in 2012 held?]]>
-		</question>
-		<answers answerLayout='4type3' correctAnswer='2'>
-			<answer><![CDATA[Tokyo]]></answer>
-			<answer><![CDATA[London]]></answer>
-			<answer><![CDATA[France]]></answer>
-			<answer><![CDATA[USA]]></answer>
-		</answers>
-	</item>
+  <item>
+    <category>IQ Test</category>
+    <question type='text'><![CDATA[Which one is snow boarding?]]></question>
+    <answers answerLayout='5type1' correctAnswer='1'>
+      <answer x='200' y='500' type='image'>assets/questions/snowboarding.png</answer>
+      <answer x='380' y='380' type='image'>assets/questions/ski.png</answer>
+      <answer x='580' y='520' type='image'>assets/questions/speed_skating.png</answer>
+      <answer x='780' y='400' type='image'>assets/questions/ski.png</answer>
+    </answers>
+  </item>
+  
+  <item>
+    <category>IQ Test</category>
+    <question type='text'><![CDATA[In which year were the first Modern Olympics held?]]></question>
+    <answers answerLayout='4type3' correctAnswer='2'>
+      <answer width='250'><![CDATA[1798]]></answer>
+      <answer width='250'><![CDATA[1896 ]]></answer>
+      <answer width='250'><![CDATA[1968 ]]></answer>
+      <answer width='250'><![CDATA[1700]]></answer>
+    </answers>
+  </item>
+  
+  <item>
+    <category>IQ Test</category>
+    <question type='text'><![CDATA[Who has won the maximum number of gold medals
+    at a single Olympic Games ?]]></question>
+    <answers answerLayout='4type3' correctAnswer='4'>
+      <answer><![CDATA[James Connelly]]></answer>
+      <answer><![CDATA[Mark Spitz]]></answer>
+      <answer><![CDATA[Abebe Bikila]]></answer>
+      <answer><![CDATA[Michael Phelps]]></answer>
+    </answers>
+  </item>
+  
+  <item>
+    <category>IQ Test</category>
+    <question type='text'><![CDATA[At what frequency are the Olympic Games held?]]></question>
+    <answers answerLayout='4type3' correctAnswer='2'>
+      <answer><![CDATA[Every 3 years]]></answer>
+      <answer><![CDATA[Every 4 years]]></answer>
+      <answer><![CDATA[Every 5 years]]></answer>
+      <answer><![CDATA[Every 6 years]]></answer>
+    </answers>
+  </item>
+  
+  <item>
+    <category>IQ Test</category>
+    <question type='text'><![CDATA[What metal is used in the third-place medal?]]></question>
+    <answers answerLayout='4type3' correctAnswer='3'>
+      <answer><![CDATA[Gold]]></answer>
+      <answer><![CDATA[Silver]]></answer>
+      <answer><![CDATA[Bronze]]></answer>
+      <answer><![CDATA[Cobalt]]></answer>
+    </answers>
+  </item>
+  
+  <item>
+    <category>IQ Test</category>
+    <question type='text'><![CDATA[Which country's team always marches
+    last in the March Past at the last of Opening Ceremony ?]]>
+    </question>
+    <answers answerLayout='4type3' correctAnswer='4'>
+      <answer><![CDATA[USA]]></answer>
+      <answer><![CDATA[Greece]]></answer>
+      <answer><![CDATA[France]]></answer>
+      <answer><![CDATA[Host country]]></answer>
+    </answers>
+  </item>
 
-	<item>
-		<category>IQ Test</category>
-		<question type='text'><![CDATA[Blue,red and green are three of the five
-								rings of the olympic flag. What are the other two ?]]>
-		</question>
-		<answers answerLayout='4type3' correctAnswer='4'>
-			<answer><![CDATA[Yellow & White]]></answer>
-			<answer><![CDATA[Gold & White]]></answer>
-			<answer><![CDATA[Orange & White]]></answer>
-			<answer><![CDATA[Yellow & Black]]></answer>
-		</answers>
-	</item>
+  <item>
+    <category>IQ Test</category>
+    <question type='text'><![CDATA[In which city were the Olympics in 2012 held?]]>
+    </question>
+    <answers answerLayout='4type3' correctAnswer='2'>
+      <answer><![CDATA[Tokyo]]></answer>
+      <answer><![CDATA[London]]></answer>
+      <answer><![CDATA[France]]></answer>
+      <answer><![CDATA[USA]]></answer>
+    </answers>
+  </item>
 
-	<item>
-		<category>IQ Test</category>
-		<question type='text'><![CDATA[How many days did the ancient games usually last?]]>
-		</question>
-		<answers answerLayout='4type3' correctAnswer='4'>
-			<answer><![CDATA[2 day]]></answer>
-			<answer><![CDATA[3 days]]></answer>
-			<answer><![CDATA[4 days]]></answer>
-			<answer><![CDATA[5 days]]></answer>
-		</answers>
-	</item>
+  <item>
+    <category>IQ Test</category>
+    <question type='text'><![CDATA[Blue,red and green are three of the five
+    rings of the olympic flag. What are the other two ?]]>
+    </question>
+    <answers answerLayout='4type3' correctAnswer='4'>
+      <answer><![CDATA[Yellow & White]]></answer>
+      <answer><![CDATA[Gold & White]]></answer>
+      <answer><![CDATA[Orange & White]]></answer>
+      <answer><![CDATA[Yellow & Black]]></answer>
+    </answers>
+  </item>
 
-	<item>
-		<category>IQ Test</category>
-		<question type='text'><![CDATA[The five rings of the Olympic flag symbolise: ]]>
-		</question>
-		<answers answerLayout='4type1' correctAnswer='4'>
-			<answer><![CDATA[The Five Continents]]></answer>
-			<answer><![CDATA[The Five Continents]]></answer>
-			<answer><![CDATA[The Five Continents]]></answer>
-			<answer><![CDATA[The Five Continents]]></answer>
-		</answers>
-	</item>
+  <item>
+    <category>IQ Test</category>
+    <question type='text'><![CDATA[How many days did the ancient games usually last?]]>
+    </question>
+    <answers answerLayout='4type3' correctAnswer='4'>
+      <answer><![CDATA[2 day]]></answer>
+      <answer><![CDATA[3 days]]></answer>
+      <answer><![CDATA[4 days]]></answer>
+      <answer><![CDATA[5 days]]></answer>
+    </answers>
+  </item>
 
-	<item>
-		<category>IQ Test</category>
-		<question type='text'><![CDATA[How many rounds are there in an Olympic
-		boxing match?]]>
-		</question>
-		<answers answerLayout='4type3' correctAnswer='3'>
-			<answer><![CDATA[2]]></answer>
-			<answer><![CDATA[6]]></answer>
-			<answer><![CDATA[4]]></answer>
-			<answer><![CDATA[3]]></answer>
-		</answers>
-	</item>
+  <item>
+    <category>IQ Test</category>
+    <question type='text'><![CDATA[The five rings of the Olympic flag symbolise: ]]>
+    </question>
+    <answers answerLayout='4type1' correctAnswer='4'>
+      <answer><![CDATA[The Five Continents]]></answer>
+      <answer><![CDATA[The Five Continents]]></answer>
+      <answer><![CDATA[The Five Continents]]></answer>
+      <answer><![CDATA[The Five Continents]]></answer>
+    </answers>
+  </item>
 
-	<item>
-		<category>IQ Test</category>
-		<question type='text'><![CDATA[In what month did the ancient Olympics take place?]]>
-		</question>
-		<answers answerLayout='4type3' correctAnswer='2'>
-			<answer><![CDATA[June]]></answer>
-			<answer><![CDATA[August]]></answer>
-			<answer><![CDATA[September]]></answer>
-			<answer><![CDATA[July]]></answer>
-		</answers>
-	</item>
+  <item>
+    <category>IQ Test</category>
+    <question type='text'><![CDATA[How many rounds are there in an Olympic
+    boxing match?]]>
+    </question>
+    <answers answerLayout='4type3' correctAnswer='3'>
+      <answer><![CDATA[2]]></answer>
+      <answer><![CDATA[6]]></answer>
+      <answer><![CDATA[4]]></answer>
+      <answer><![CDATA[3]]></answer>
+    </answers>
+  </item>
 
-	<item>
-		<category>IQ Test</category>
-		<question type='text'><![CDATA[In which stadium will the opening
-								and closing ceremonies be?]]>
-		</question>
-		<answers answerLayout='4type3' correctAnswer='4'>
-			<answer><![CDATA[Sambadrome]]></answer>
-			<answer><![CDATA[Copacabana]]></answer>
-			<answer><![CDATA[HSBC Arena]]></answer>
-			<answer><![CDATA[Maracana]]></answer>
-		</answers>
-	</item>
+  <item>
+    <category>IQ Test</category>
+    <question type='text'><![CDATA[In what month did the ancient Olympics take place?]]>
+    </question>
+    <answers answerLayout='4type3' correctAnswer='2'>
+      <answer><![CDATA[June]]></answer>
+      <answer><![CDATA[August]]></answer>
+      <answer><![CDATA[September]]></answer>
+      <answer><![CDATA[July]]></answer>
+    </answers>
+  </item>
 
-	<item>
-		<category>IQ Test</category>
-		<question type='text'><![CDATA[Phiedippides ran over 26 miles in 490 BC to deliver
-		the news of a lost battle.He ran from Marathon,
-		 where did he run to ?]]>
-		</question>
-		<answers answerLayout='4type3' correctAnswer='4'>
-			<answer><![CDATA[Athens]]></answer>
-			<answer><![CDATA[ Rome]]></answer>
-			<answer><![CDATA[Carthage]]></answer>
-			<answer><![CDATA[Oreos]]></answer>
-		</answers>
-	</item>
+  <item>
+    <category>IQ Test</category>
+    <question type='text'><![CDATA[In which stadium will the opening
+    and closing ceremonies be?]]>
+    </question>
+    <answers answerLayout='4type3' correctAnswer='4'>
+      <answer><![CDATA[Sambadrome]]></answer>
+      <answer><![CDATA[Copacabana]]></answer>
+      <answer><![CDATA[HSBC Arena]]></answer>
+      <answer><![CDATA[Maracana]]></answer>
+    </answers>
+  </item>
 
-	<item>
-		<category>IQ Test</category>
-		<question type='text'><![CDATA[How far is a modern Olympic Marathon,
-								to the nearest mile ?]]>
-		</question>
-		<answers answerLayout='4type3' correctAnswer='3'>
-			<answer><![CDATA[16 miles]]></answer>
-			<answer><![CDATA[18 miles]]></answer>
-			<answer><![CDATA[26 miles]]></answer>
-			<answer><![CDATA[28 miles]]></answer>
-		</answers>
-	</item>
+  <item>
+    <category>IQ Test</category>
+    <question type='text'><![CDATA[Phiedippides ran over 26 miles in 490 BC to deliver
+    the news of a lost battle.He ran from Marathon,
+    where did he run to ?]]>
+    </question>
+    <answers answerLayout='4type3' correctAnswer='4'>
+      <answer><![CDATA[Athens]]></answer>
+      <answer><![CDATA[ Rome]]></answer>
+      <answer><![CDATA[Carthage]]></answer>
+      <answer><![CDATA[Oreos]]></answer>
+    </answers>
+  </item>
 
-	<item>
-		<category>IQ Test</category>
-		<question type='text'><![CDATA[How many times have the Olympic games been
-		 						cancelled due to war since 1896 ?]]>
-		</question>
-		<answers answerLayout='4type3' correctAnswer='3'>
-			<answer><![CDATA[Twice]]></answer>
-			<answer><![CDATA[Once]]></answer>
-			<answer><![CDATA[Three Time]]></answer>
-			<answer><![CDATA[Never]]></answer>
-		</answers>
-	</item>
+  <item>
+    <category>IQ Test</category>
+    <question type='text'><![CDATA[How far is a modern Olympic Marathon,
+    to the nearest mile ?]]>
+    </question>
+    <answers answerLayout='4type3' correctAnswer='3'>
+      <answer><![CDATA[16 miles]]></answer>
+      <answer><![CDATA[18 miles]]></answer>
+      <answer><![CDATA[26 miles]]></answer>
+      <answer><![CDATA[28 miles]]></answer>
+    </answers>
+  </item>
 
+  <item>
+    <category>IQ Test</category>
+    <question type='text'><![CDATA[How many times have the Olympic games been
+    cancelled due to war since 1896 ?]]>
+    </question>
+    <answers answerLayout='4type3' correctAnswer='3'>
+      <answer><![CDATA[Twice]]></answer>
+      <answer><![CDATA[Once]]></answer>
+      <answer><![CDATA[Three Time]]></answer>
+      <answer><![CDATA[Never]]></answer>
+    </answers>
+  </item>
 
-	<item>
-		<category>Idiot Test</category>
-		<question type='image'>assets/questions/twins.png</question>
-		<answers answerLayout='4type2' correctAnswer='2' answerOffsetY='200'>
-			<answer><![CDATA[3]]></answer>
-			<answer><![CDATA[4]]></answer>
-			<answer><![CDATA[5]]></answer>
-			<answer><![CDATA[8]]></answer>
-		</answers>
-	</item>
-
-	<item>
-		<category>Idiot Test</category>
-		<question type='text'><![CDATA[Which number is bigger?]]></question>
-		<answers answerLayout='5type1' correctAnswer='3'>
-			<answer x='200' y='500' type='image'>assets/questions/number1.png</answer>
-			<answer x='380' y='380' type='image'>assets/questions/number2.png</answer>
-			<answer x='580' y='520' type='image'>assets/questions/number3.png</answer>
-			<answer x='780' y='400' type='image'>assets/questions/number4.png</answer>
-		</answers>
-	</item>
-
-	<item>
-		<category>Idiot Test</category>
-		<question type='image'>assets/questions/parking.png</question>
-		<answers answerLayout='4type2' correctAnswer='4' answerOffsetY='120'>
-			<answer><![CDATA[100]]></answer>
-			<answer><![CDATA[07]]></answer>
-			<answer><![CDATA[69]]></answer>
-			<answer><![CDATA[87]]></answer>
-		</answers>
-	</item>
-
-	<item>
-		<category>Idiot Test</category>
-		<question type='text'><![CDATA[Which screw needs a bigger
-		screwdriver?]]></question>
-		<answers answerLayout='3type3' correctAnswer='1'>
-			<answer type='image'>assets/questions/screwdriver1.png</answer>
-			<answer type='image'>assets/questions/screwdriver2.png</answer>
-			<answer type='image'>assets/questions/screwdriver3.png</answer>
-		</answers>
-	</item>
-
-	<item>
-		<category>Idiot Test</category>
-		<question type='text'><![CDATA[Which one of the five is least
-		like the other four?]]></question>
-		<answers answerLayout='5type1' correctAnswer='4'>
-			<answer width='350'><![CDATA[Dog]]></answer>
-			<answer width='350'><![CDATA[Mouse]]></answer>
-			<answer width='350'><![CDATA[Lion]]></answer>
-			<answer width='350'><![CDATA[Snake]]></answer>
-			<answer width='350'><![CDATA[Elephant]]></answer>
-		</answers>
-	</item>
-
-	<item>
-		<category>Idiot Test</category>
-		<question type='text'><![CDATA[.sdrawkcab noitseuq siht rewsnA]]></question>
-		<answers answerLayout='4type1' correctAnswer='1' answerOffsetY='-50'>
-			<answer width='500'><![CDATA[K.O]]></answer>
-			<answer width='500'><![CDATA[What?]]></answer>
-			<answer width='500'><![CDATA[I don't understand]]></answer>
-			<answer width='500'><![CDATA[Pass]]></answer>
-		</answers>
-	</item>
+  <!--<item>-->
+    <!--<category>Idiot Test</category>-->
+    <!--<question type='image'>assets/questions/twins.png</question>-->
+    <!--<answers answerLayout='4type2' correctAnswer='2' answerOffsetY='200'>-->
+      <!--<answer><![CDATA[3]]></answer>-->
+      <!--<answer><![CDATA[4]]></answer>-->
+      <!--<answer><![CDATA[5]]></answer>-->
+      <!--<answer><![CDATA[8]]></answer>-->
+    <!--</answers>-->
+  <!--</item>-->
 
 </questions>
