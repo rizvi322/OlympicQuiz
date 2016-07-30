@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////
 // MOBILE
 ////////////////////////////////////////////////////////////
-var forPortrait=true;
+var forPortrait=false;
 
 /*!
  * 
@@ -14,11 +14,11 @@ function checkMobileEvent(){
 			$('#canvasHolder').hide();
 			$('#rotateHolder').hide();
 			
-			/*setTimeout(function() {
+			setTimeout(function() {
 				checkMobileOrientation();
-			}, 1000);*/
+			}, 1000);
 		});
-		// checkMobileOrientation();
+		checkMobileOrientation();
 	}
 }
 
