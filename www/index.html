@@ -61,14 +61,6 @@
                 });
             }
 
-            function checkAndLoadAd() {
-                if (questionCountNum % 3 == 0) {
-                    if (AdMob) {
-                        AdMob.showInterstitial();
-                    }
-                }
-            }
-
             function initApp() {
                 if (AdMob) {
                     bannerAd();
@@ -76,14 +68,12 @@
                     AdMob.showInterstitial();
                 }
 
-                setInterval(checkAndLoadAd, 5000);
-
                 setInterval(function(){
                     if (AdMob) {
                         AdMob.removeBanner();
                         bannerAd();
                     }
-                }, 10000);
+                }, 20000);
             }
 
             document.addEventListener('deviceready', initApp, false);
