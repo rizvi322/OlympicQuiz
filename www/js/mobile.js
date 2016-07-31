@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////
 // MOBILE
 ////////////////////////////////////////////////////////////
-var forPortrait=false;
+var forPortrait=true;
 
 /*!
  * 
@@ -13,7 +13,7 @@ function checkMobileEvent(){
 		$( window ).off('orientationchange').on( "orientationchange", function( event ) {
 			$('#canvasHolder').hide();
 			$('#rotateHolder').hide();
-			
+	
 			setTimeout(function() {
 				checkMobileOrientation();
 			}, 1000);

@@ -4,7 +4,7 @@
 
 /*!
  * 
- * GAME SETTING CUSTOMIZATION START
+ * GAME SETTING CUSTOMIZATIO`N START
  * 
  */
 var loadingText = 'LOADING...'; //text for loading...
@@ -15,9 +15,9 @@ var categoryAllOption = true; //add ALL category select option
 var categoryContinueText = 'SELECT CATEGORY'; //text for category page button
 var categoryAllText = 'All'; //text for all category select option
 
-var backgroundColour = '#755FBE'; //background colour
-var questionTextColour = '#fff'; //question text colour
-var answerTextColour = '#fff'; //answer text colour
+var backgroundColour = '#0F7B1D'; //background colour
+var questionTextColour = '#ffffff'; //question text colour
+var answerTextColour = '#000000'; //answer text colour
 var questionTextSize = 50; //question text size
 var answerTextSize = 50; //answer text size
 var textLineHeight = 5; //text line height
@@ -34,10 +34,10 @@ var answerAnimationEnable = true; //enable answer animation
 var answerButtonBgEnable = true; //toggle answer button background
 var answerButtonBgRoundNumber = 20; //answer button background round corner number
 var answerButtonBgShadowNumber = 10; //answer button background shadow
-var answerButtonBgColour = '#E7577A'; //answer button background colour
-var answerButtonBgShadowColour = '#D03E61'; //answer button background shadow colour
-var answeredButtonBgColour = '#FFCC46'; //answered button background colour
-var answeredButtonBgShadowColour = '#FFA73A'; //answered button background shadow colour
+var answerButtonBgColour = '#FFCC46'; //answer button background colour
+var answerButtonBgShadowColour = '#FFA73A'; //answer button background shadow colour
+var answeredButtonBgColour = '#E7577A'; //answered button background colour
+var answeredButtonBgShadowColour = '#D03E61'; //answered button background shadow colour
 var answerButtonPositionOffsetY = -15; //answer button background offsey y
 
 var audioQuestionDelay = 300;
