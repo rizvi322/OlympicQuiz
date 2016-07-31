@@ -58,8 +58,8 @@ var replayButtonText = 'TRY AGAIN'; //text for replay button
 
 //Social share, [SCORE] will replace with game score
 var shareText ='SHARE IT NOW'; //text for share instruction
-var shareTitle = 'Highscore on Quiz Game is [SCORE]';//social share score title
-var shareMessage = '[SCORE] is mine new highscore on Quiz Game! Try it now!'; //social share score message
+var shareTitle = 'New highscore on Quiz Game - Rio Olympic 2016 is [SCORE]';//social share score title
+var shareMessage = '[SCORE] is mine new highscore on Quiz Game -Rio Olympic 2016! Try it now!'; //social share score message
 
 /*!
  *
