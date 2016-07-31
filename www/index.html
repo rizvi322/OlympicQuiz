@@ -67,13 +67,6 @@
                     bannerAd();
                     interstitialAd();
                 }
-
-                setInterval(function(){
-                    if (AdMob) {
-                        AdMob.removeBanner();
-                        bannerAd();
-                    }
-                }, 20000);
             }
 
             document.addEventListener('deviceready', initApp, false);
@@ -85,7 +78,7 @@
         <!-- PERCENT LOADER END-->
         
         <!-- CONTENT START-->
-        <div id="mainHolder" style="bottom: 95px;">
+        <div id="mainHolder">
         
         	<!-- BROWSER NOT SUPPORT START-->
         	<div id="notSupportHolder">
