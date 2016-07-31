@@ -47,8 +47,8 @@
             function bannerAd() {
                 AdMob.createBanner({
                     adId : admobid.banner,
-                    position : AdMob.AD_POSITION.BOTTOM_CENTER,
-                    overlap: true,
+                    position : AdMob.AD_POSITION.TOP_CENTER,
+                    overlap: false,
                     isTesting: true,
                     autoShow : true
                 });
@@ -65,7 +65,6 @@
             function initApp() {
                 if (AdMob) {
                     bannerAd();
-                    interstitialAd();
                 }
             }
 
@@ -89,7 +88,7 @@
             <!-- ROTATE INSTRUCTION START-->
             <div id="rotateHolder">
                 <div class="mobileRotate">
-                    <div class="rotateDesc">Rotate your device <br/>to portrait</div>
+                    <div class="rotateDesc">Rotate your device <br/>to landscape</div>
                 </div>
             </div>
             <!-- ROTATE INSTRUCTION END-->
