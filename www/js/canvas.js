@@ -214,7 +214,8 @@ function buildGameCanvas(){
 	mainContainer.addChild(logo, startButton);
 	categoryContainer.addChild(arrowLeft, arrowRight, categoryTitleTxt, categoryContinueTxt);
 	gameContainer.addChild(loaderAnimate, editContainer, questionContainer, questionTxt, brainScore, scoreTxt, timerBar, brainCorrectAnimate);
-	resultContainer.addChild(brainResult, resultDescTxt, resultScoreTxt, iconFacebook, iconTwitter, iconGoogle, resultShareTxt, replayButton);
+	// resultContainer.addChild(brainResult, resultDescTxt, resultScoreTxt, iconFacebook, iconTwitter, iconGoogle, resultShareTxt, replayButton);
+	resultContainer.addChild(brainResult, resultDescTxt, resultScoreTxt, replayButton);
 	canvasContainer.addChild(bg, mainContainer, categoryContainer, gameContainer, resultContainer);
 	stage.addChild(canvasContainer);
 	
