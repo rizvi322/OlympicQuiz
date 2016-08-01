@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <questions>
 
-	<item>
-		<category>Set 1</category>
-		<question type='text'><![CDATA[Which country has the most athletes scheduled
-											to compete in Rio?]]></question>
-		<answers answerLayout='5type1' correctAnswer='3'>
-			<answer x='200' y='500' type='image'>assets/questions/brazil.jpg</answer>
-			<answer x='380' y='380' type='image'>assets/questions/china.jpg</answer>
-			<answer x='580' y='520' type='image'>assets/questions/usa.jpg</answer>
-			<answer x='780' y='400' type='image'>assets/questions/korea.jpg</answer>
-		</answers>
-	</item>
-  
+	<!--<item>-->
+		<!--<category>Set 1</category>-->
+		<!--<question type='text'><![CDATA[Which country has the most athletes scheduled-->
+											<!--to compete in Rio?]]></question>-->
+		<!--<answers answerLayout='5type1' correctAnswer='3'>-->
+			<!--<answer x='200' y='500' type='image'>assets/questions/brazil.jpg</answer>-->
+			<!--<answer x='380' y='380' type='image'>assets/questions/china.jpg</answer>-->
+			<!--<answer x='580' y='520' type='image'>assets/questions/usa.jpg</answer>-->
+			<!--<answer x='780' y='400' type='image'>assets/questions/korea.jpg</answer>-->
+		<!--</answers>-->
+	<!--</item>-->
+
+    <item>
+        <category>Set 1</category>
+        <question type='text'><![CDATA[Which of the following competitions
+                                   do not require a ticket to attend?]]></question>
+        <answers answerLayout='4type3' correctAnswer='3'>
+            <answer width='250'><![CDATA[Golf]]></answer>
+            <answer width='250'><![CDATA[Basketball ]]></answer>
+            <answer width='250'><![CDATA[Sailing ]]></answer>
+            <answer width='250'><![CDATA[Tennis]]></answer>
+        </answers>
+    </item>
+
   <item>
     <category>Set 1</category>
     <question type='text'><![CDATA[In which year were the first Modern Olympics held?]]></question>
@@ -172,18 +184,31 @@
     </answers>
   </item>
 
-  <item>
-    <category>Set 2</category>
-    <question type='text'><![CDATA[Five sports have been contested
-		at every Summer Olympic Games since 1896.
-		Which is not in that group?]]></question>
-    <answers answerLayout='5type1' correctAnswer='3'>
-      <answer x='200' y='500' type='image'>assets/questions/fencing.jpg</answer>
-      <answer x='380' y='380' type='image'>assets/questions/swimming.jpg</answer>
-      <answer x='580' y='520' type='image'>assets/questions/shooting.jpg</answer>
-      <answer x='780' y='400' type='image'>assets/questions/cycling.jpg</answer>
-    </answers>
-  </item>
+  <!--<item>-->
+    <!--<category>Set 2</category>-->
+    <!--<question type='text'><![CDATA[Five sports have been contested-->
+		<!--at every Summer Olympic Games since 1896.-->
+		<!--Which is not in that group?]]></question>-->
+    <!--<answers answerLayout='5type1' correctAnswer='3'>-->
+      <!--<answer x='200' y='500' type='image'>assets/questions/fencing.jpg</answer>-->
+      <!--<answer x='380' y='380' type='image'>assets/questions/swimming.jpg</answer>-->
+      <!--<answer x='580' y='520' type='image'>assets/questions/shooting.jpg</answer>-->
+      <!--<answer x='780' y='400' type='image'>assets/questions/cycling.jpg</answer>-->
+    <!--</answers>-->
+  <!--</item>-->
+
+    <item>
+        <category>Set 2</category>
+        <question type='text'><![CDATA[What Olympic symbol represents peace,
+                                unity and friendship?]]>
+        </question>
+        <answers answerLayout='4type3' correctAnswer='4'>
+            <answer><![CDATA[Rings]]></answer>
+            <answer><![CDATA[Medal]]></answer>
+            <answer><![CDATA[Torch]]></answer>
+            <answer><![CDATA[Flame]]></answer>
+        </answers>
+    </item>
 
   <item>
     <category>Set 2</category>
@@ -343,16 +368,28 @@
 		</answers>
 	</item>
 
-  <item>
-    <category>Set 3</category>
-    <question type='text'><![CDATA[Which one is snow boarding?]]></question>
-    <answers answerLayout='5type1' correctAnswer='1'>
-      <answer x='200' y='500' type='image'>assets/questions/snowboarding.png</answer>
-      <answer x='380' y='380' type='image'>assets/questions/ski.png</answer>
-      <answer x='580' y='520' type='image'>assets/questions/speed_skating.png</answer>
-      <answer x='780' y='400' type='image'>assets/questions/ski.png</answer>
-    </answers>
-  </item>
+  <!--<item>-->
+    <!--<category>Set 3</category>-->
+    <!--<question type='text'><![CDATA[Which one is snow boarding?]]></question>-->
+    <!--<answers answerLayout='5type1' correctAnswer='1'>-->
+      <!--<answer x='200' y='500' type='image'>assets/questions/snowboarding.png</answer>-->
+      <!--<answer x='380' y='380' type='image'>assets/questions/ski.png</answer>-->
+      <!--<answer x='580' y='520' type='image'>assets/questions/speed_skating.png</answer>-->
+      <!--<answer x='780' y='400' type='image'>assets/questions/ski.png</answer>-->
+    <!--</answers>-->
+  <!--</item>-->
+
+    <item>
+        <category>Set 3</category>
+        <question type='text'><![CDATA[The official language of Brazil is _______]]>
+        </question>
+        <answers answerLayout='4type1' correctAnswer='1'>
+            <answer><![CDATA[Portuguese]]></answer>
+            <answer><![CDATA[French]]></answer>
+            <answer><![CDATA[Dutch]]></answer>
+            <answer><![CDATA[Spanish]]></answer>
+        </answers>
+    </item>
 
 	<item>
 		<category>Set 3</category>
