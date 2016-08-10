@@ -417,4 +417,125 @@
     </answers>
   </item>
 
+    <item>
+        <category>Set 4</category>
+        <question type='text'><![CDATA[In which year India first participated
+        in olympic?]]></question>
+        <answers answerLayout='4type3' correctAnswer='1'>
+            <answer width='300'>1900</answer>
+            <answer width='300'>1932</answer>
+            <answer width='300'>1928</answer>
+            <answer width='300'>1904 </answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 4</category>
+        <question type='text'><![CDATA[Which country won eleven medals in twelve
+        Olympics between 1928 and 1980 in hockey]]></question>
+        <answers answerLayout='4type3' correctAnswer='3'>
+            <answer width='300'>USA</answer>
+            <answer width='300'>Russia</answer>
+            <answer width='300'>India</answer>
+            <answer width='300'>China</answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 4</category>
+        <question type='text'><![CDATA[Women made their Olympic debut
+        during the 1900 Summer Games in France.
+        In which two games they participated ?]]></question>
+        <answers answerLayout='4type3' correctAnswer='2'>
+            <answer><![CDATA[Sailing & Golf]]></answer>
+            <answer><![CDATA[Golf & Tennis]]></answer>
+            <answer><![CDATA[Archery & Judo]]></answer>
+            <answer><![CDATA[Cycling & Polo]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 4</category>
+        <question type='text'><![CDATA[How may events are there
+         in rio olympic 2016?]]></question>
+        <answers answerLayout='4type3' correctAnswer='4'>
+            <answer><![CDATA[300]]></answer>
+            <answer><![CDATA[301]]></answer>
+            <answer><![CDATA[304]]></answer>
+            <answer><![CDATA[306]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 4</category>
+        <question type='text'><![CDATA[Which country has won the first
+        gold medal in rio 2016]]></question>
+        <answers answerLayout='4type3' correctAnswer='3'>
+            <answer><![CDATA[China]]></answer>
+            <answer><![CDATA[Japan]]></answer>
+            <answer><![CDATA[USA]]></answer>
+            <answer><![CDATA[Brazil]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 4</category>
+        <question type='text'><![CDATA[Which country hosted the
+        first winter olympic ?]]></question>
+        <answers answerLayout='4type3' correctAnswer='4'>
+            <answer><![CDATA[Canada]]></answer>
+            <answer><![CDATA[Japan]]></answer>
+            <answer><![CDATA[USA]]></answer>
+            <answer><![CDATA[France]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 4</category>
+        <question type='text'><![CDATA[Golf is back at the Olympics this year.
+         When did it last feature?]]></question>
+        <answers answerLayout='4type3' correctAnswer='1'>
+            <answer><![CDATA[1904]]></answer>
+            <answer><![CDATA[1980]]></answer>
+            <answer><![CDATA[1996]]></answer>
+            <answer><![CDATA[1900]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 4</category>
+        <question type='text'><![CDATA[Which of these countries has not hosted
+         the summer Olympics?]]></question>
+        <answers answerLayout='4type3' correctAnswer='2'>
+            <answer><![CDATA[Finland]]></answer>
+            <answer><![CDATA[India]]></answer>
+            <answer><![CDATA[Mexico]]></answer>
+            <answer><![CDATA[Belgium]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 4</category>
+        <question type='text'><![CDATA[The ancient Games featured a competition
+         for which musicians?]]></question>
+        <answers answerLayout='4type3' correctAnswer='3'>
+            <answer><![CDATA[Guitarists]]></answer>
+            <answer><![CDATA[Drummers ]]></answer>
+            <answer><![CDATA[Trumpeters]]></answer>
+            <answer><![CDATA[Singers]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 4</category>
+        <question type='text'><![CDATA[How many athletes are competing
+        at the Games in Rio?]]></question>
+        <answers answerLayout='4type3' correctAnswer='3'>
+            <answer><![CDATA[1026]]></answer>
+            <answer><![CDATA[2016 ]]></answer>
+            <answer><![CDATA[10500]]></answer>
+            <answer><![CDATA[20160]]></answer>
+        </answers>
+    </item>
+
 </questions>
