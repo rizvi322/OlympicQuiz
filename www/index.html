@@ -39,12 +39,15 @@
                 };
             } else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
                 admobid = { // for iOS
-    //                banner: 'ca-app-pub-6869992474017983/4806197152',
-    //                interstitial: 'ca-app-pub-6869992474017983/7563979554'
+//                    banner: 'ca-app-pub-6869992474017983/4806197152',
+//                    interstitial: 'ca-app-pub-6869992474017983/7563979554'
                 };
             }
 
             function bannerAd() {
+                if (IAP.adFree) {
+                    return;
+                }
                 AdMob.createBanner({
                     adId : admobid.banner,
                     position : AdMob.AD_POSITION.TOP_CENTER,
@@ -55,6 +58,10 @@
             }
 
             function interstitialAd() {
+                if (IAP.adFree) {
+                    return;
+                }
+
                 AdMob.prepareInterstitial({
                     adId: admobid.interstitial,
                     isTesting: false,
@@ -63,6 +70,12 @@
             }
 
             function initApp() {
+                IAP.load();
+
+                if (IAP.adFree) {
+                    return;
+                }
+
                 if (AdMob) {
                     bannerAd();
                 }
@@ -117,5 +130,6 @@
         <script src="js/main.js"></script>
         <script src="js/loader.js"></script>
         <script src="js/init.js"></script>
+        <script src="js/IAP.js"></script>
     </body>
 </html>

@@ -165,6 +165,7 @@ function goPage(page){
 	
 	removeTouchEvent();
 	stopAnimateButton(startButton);
+	stopAnimateButton(removeAd);
 	stopAnimateButton(categoryContinueTxt);
 	stopAnimateButton(replayButton);
 	
@@ -176,6 +177,7 @@ function goPage(page){
 			
 			targetContainer = mainContainer;
 			startAnimateButton(startButton);
+			startAnimateButton(removeAd);
 			setupTouchEvent();
 		break;
 		
