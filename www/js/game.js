@@ -15,7 +15,7 @@ var categoryAllOption = true; //add ALL category select option
 var categoryContinueText = 'SELECT CATEGORY'; //text for category page button
 var categoryAllText = 'All'; //text for all category select option
 
-var backgroundColour = '#0F7B1D'; //background colour
+var backgroundColour = '#000000'; //background colour
 var questionTextColour = '#ffffff'; //question text colour
 var answerTextColour = '#000000'; //answer text colour
 var questionTextSize = 50; //question text size
@@ -165,7 +165,6 @@ function goPage(page){
 	
 	removeTouchEvent();
 	stopAnimateButton(startButton);
-	stopAnimateButton(removeAd);
 	stopAnimateButton(categoryContinueTxt);
 	stopAnimateButton(replayButton);
 	
@@ -177,7 +176,6 @@ function goPage(page){
 			
 			targetContainer = mainContainer;
 			startAnimateButton(startButton);
-			startAnimateButton(removeAd);
 			setupTouchEvent();
 		break;
 		

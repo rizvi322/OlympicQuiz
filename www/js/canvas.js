@@ -24,7 +24,7 @@ function initGameCanvas(w,h){
 }
 
 var canvasContainer, mainContainer, categoryContainer, gameContainer, questionContainer, editContainer, resultContainer;
-var bg, logo, startButton, removeAd, arrowLeft, arrowRight, categoryTxt, categoryTitleTxt, categoryContinueTxt, questionTxt, scoreTxt, timerBar, brainScore, brainResult, replayButton, resultDescTxt, resultScoreTxt, iconFacebook, iconTwitter, iconGoogle, resultShareTxt, loaderData, loaderAnimate, brainCorrectData, brainCorrectAnimate;
+var bg, logo, startButton, arrowLeft, arrowRight, categoryTxt, categoryTitleTxt, categoryContinueTxt, questionTxt, scoreTxt, timerBar, brainScore, brainResult, replayButton, resultDescTxt, resultScoreTxt, iconFacebook, iconTwitter, iconGoogle, resultShareTxt, loaderData, loaderAnimate, brainCorrectData, brainCorrectAnimate;
 $.question={};
 
 /*!
@@ -55,15 +55,6 @@ function buildGameCanvas(){
 	startButton.textBaseline='alphabetic';
 	startButton.x = canvasW/2;
 	startButton.y = canvasH/100*83;
-	
-	removeAd = new createjs.Text();
-	removeAd.font = "50px bariol_regularregular";
-	removeAd.color = "#ffffff";
-	removeAd.text = "Remove ads";
-	removeAd.textAlign = "center";
-	removeAd.textBaseline='alphabetic';
-	removeAd.x = canvasW/4;
-	removeAd.y = canvasH/100*83;
 	
 	arrowLeft = new createjs.Bitmap(loader.getResult('arrow'));
 	arrowRight = new createjs.Bitmap(loader.getResult('arrow'));
@@ -220,7 +211,7 @@ function buildGameCanvas(){
 	replayButton.y = canvasH/100*65;
 	replayButton.hitArea = new createjs.Shape(new createjs.Graphics().beginFill("#000").drawRect(-200, -30, 400, 40));
 	
-	mainContainer.addChild(logo, startButton, removeAd);
+	mainContainer.addChild(logo, startButton);
 	categoryContainer.addChild(arrowLeft, arrowRight, categoryTitleTxt, categoryContinueTxt);
 	gameContainer.addChild(loaderAnimate, editContainer, questionContainer, questionTxt, brainScore, scoreTxt, timerBar, brainCorrectAnimate);
 	// resultContainer.addChild(brainResult, resultDescTxt, resultScoreTxt, iconFacebook, iconTwitter, iconGoogle, resultShareTxt, replayButton);

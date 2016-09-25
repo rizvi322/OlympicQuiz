@@ -11,7 +11,7 @@ IAP.load = function () {
 
   // Check availability of the storekit plugin
   if (!window.storekit) {
-    console.log("In-App Purchases not available");
+    alert("In-App Purchases not available");
     return;
   }
 
@@ -56,6 +56,7 @@ IAP.onError = function (errorCode, errorMessage) {
 };
 
 IAP.buy = function(productId){
+  alert("Buying....");
   storekit.purchase(productId);
 };
 
