@@ -2,8 +2,10 @@
  * Created by Raihan on 9/25/2016.
  */
 
+var PRODUCT_ID_ADFREE = "com.dteam.halloween.adfree";
+
 IAP = {
-  list: [ "adfree"],
+  list: [PRODUCT_ID_ADFREE],
   adFree: false
 };
 
@@ -36,7 +38,7 @@ IAP.onReady = function () {
 };
 
 IAP.onPurchase = function (transactionId, productId, receipt) {
-  if(productId === 'adfree'){
+  if(productId === PRODUCT_ID_ADFREE){
     alert("Ads Removed!");
     IAP.adFree = true;
     //Code to remove ads for the user
@@ -44,7 +46,7 @@ IAP.onPurchase = function (transactionId, productId, receipt) {
 };
 
 IAP.onRestore = function (transactionId, productId, transactionReceipt) {
-  if(productId == 'adfree'){
+  if(productId == PRODUCT_ID_ADFREE){
     //Code to remove ads for the user
     IAP.adFree = true;
   }

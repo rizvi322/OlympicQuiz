@@ -1,10 +1,10 @@
 <widget xmlns="http://www.w3.org/ns/widgets"
         xmlns:gap="http://phonegap.com/ns/1.0"
-        id="com.dteam.OlympicQuiz"
+        id="com.dteam.halloween"
         version="1.0.1">
 
-  <name>Free Quiz Game - Rio Olympic 2016</name>
-  <description>A quiz game based on Rio Olympic 2016.</description>
+  <name>Crazy Halloween Trivia</name>
+  <description>A quiz game based on Halloween 2016.</description>
   <content src="index.html"/>
   <access origin="*"/>
 

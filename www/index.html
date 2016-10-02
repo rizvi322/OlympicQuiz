@@ -71,7 +71,6 @@
 
             function initApp() {
                 IAP.load();
-                alert("Storekit.")
 
                 if (IAP.adFree) {
                     alert("I am adfree.")
@@ -112,7 +111,7 @@
             <!-- CANVAS START-->
             <div id="canvasHolder">
                 <div class="#iap">
-                    <button style="float: right;" onclick="IAP.buy('adfree')">Remove Ads</button>
+                    <button style="float: right;" onclick="IAP.buy(PRODUCT_ID_ADFREE)">Remove Ads</button>
                     <br/><br/>
                 </div>
                 <canvas id="gameCanvas" width="1024" height="768"></canvas>
