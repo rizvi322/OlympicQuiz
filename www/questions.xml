@@ -2,7 +2,7 @@
 <questions>
 
 	<!--<item>-->
-		<!--<category>Set 1</category>-->
+		<!--<category>Halloween Set 1</category>-->
 		<!--<question type='text'><![CDATA[Which country has the most athletes scheduled-->
 											<!--to compete in Rio?]]></question>-->
 		<!--<answers answerLayout='5type1' correctAnswer='3'>-->
@@ -14,178 +14,170 @@
 	<!--</item>-->
 
     <item>
-        <category>Set 1</category>
-        <question type='text'><![CDATA[Which of the following competitions
-                                   do not require a ticket to attend?]]></question>
-        <answers answerLayout='4type3' correctAnswer='3'>
-            <answer width='250'><![CDATA[Golf]]></answer>
-            <answer width='250'><![CDATA[Basketball ]]></answer>
-            <answer width='250'><![CDATA[Sailing ]]></answer>
-            <answer width='250'><![CDATA[Tennis]]></answer>
+        <category>Halloween Halloween Set 1</category>
+        <question type='text'><![CDATA[Halloween is celebrated on what day?]]></question>
+        <answers answerLayout='4type3' correctAnswer='1'>
+            <answer width='250'><![CDATA[October 31st]]></answer>
+            <answer width='250'><![CDATA[October 1st]]></answer>
+            <answer width='250'><![CDATA[October 15th]]></answer>
+            <answer width='250'><![CDATA[ November 1st]]></answer>
         </answers>
     </item>
 
   <item>
-    <category>Set 1</category>
-    <question type='text'><![CDATA[In which year were the first Modern Olympics held?]]></question>
+    <category>Halloween Set 1</category>
+    <question type='text'><![CDATA[What was Dr. Frankenstein’s first name?]]></question>
     <answers answerLayout='4type3' correctAnswer='2'>
-      <answer width='250'><![CDATA[1798]]></answer>
-      <answer width='250'><![CDATA[1896 ]]></answer>
-      <answer width='250'><![CDATA[1968 ]]></answer>
-      <answer width='250'><![CDATA[1700]]></answer>
+      <answer width='250'><![CDATA[Boris]]></answer>
+      <answer width='250'><![CDATA[Victor]]></answer>
+      <answer width='250'><![CDATA[Francois]]></answer>
+      <answer width='250'><![CDATA[Robert]]></answer>
     </answers>
   </item>
   
   <item>
-    <category>Set 1</category>
-    <question type='text'><![CDATA[Who has won the maximum number of gold medals
-    at a single Olympic Games ?]]></question>
+    <category>Halloween Set 1</category>
+    <question type='text'><![CDATA[.According to superstition, hearing an owl's call means?]]></question>
     <answers answerLayout='4type3' correctAnswer='4'>
-      <answer><![CDATA[James Connelly]]></answer>
-      <answer><![CDATA[Mark Spitz]]></answer>
-      <answer><![CDATA[Abebe Bikila]]></answer>
-      <answer><![CDATA[Michael Phelps]]></answer>
+      <answer><![CDATA[A baby is being born]]></answer>
+      <answer><![CDATA[There is a ghost about]]></answer>
+      <answer><![CDATA[The weather is going to turn bad]]></answer>
+      <answer><![CDATA[Someone is about to die]]></answer>
     </answers>
   </item>
   
   <item>
-    <category>Set 1</category>
-    <question type='text'><![CDATA[At what frequency are the Olympic Games held?]]></question>
-    <answers answerLayout='4type3' correctAnswer='2'>
-      <answer><![CDATA[Every 3 years]]></answer>
-      <answer><![CDATA[Every 4 years]]></answer>
-      <answer><![CDATA[Every 5 years]]></answer>
-      <answer><![CDATA[Every 6 years]]></answer>
-    </answers>
-  </item>
-  
-  <item>
-    <category>Set 1</category>
-    <question type='text'><![CDATA[What metal is used in the third-place medal?]]></question>
+    <category>Halloween Set 1</category>
+    <question type='text'><![CDATA[What does seeing a spider on Halloween mean?]]></question>
     <answers answerLayout='4type3' correctAnswer='3'>
-      <answer><![CDATA[Gold]]></answer>
-      <answer><![CDATA[Silver]]></answer>
-      <answer><![CDATA[Bronze]]></answer>
-      <answer><![CDATA[Cobalt]]></answer>
+      <answer><![CDATA[You will have bad luck]]></answer>
+      <answer><![CDATA[You are going to die very soon]]></answer>
+      <answer><![CDATA[A loved one is watching]]></answer>
+      <answer><![CDATA[You are going to have good luck in the following year]]></answer>
     </answers>
   </item>
   
   <item>
-    <category>Set 1</category>
-    <question type='text'><![CDATA[Which country's team always marches
-   						last in the March Past of Opening Ceremony ?]]>
-    </question>
+    <category>Halloween Set 1</category>
+    <question type='text'><![CDATA[Which candy was originally called chicken feed?]]></question>
     <answers answerLayout='4type3' correctAnswer='4'>
-      <answer><![CDATA[USA]]></answer>
-      <answer><![CDATA[Greece]]></answer>
-      <answer><![CDATA[France]]></answer>
-      <answer><![CDATA[Host country]]></answer>
+      <answer><![CDATA[Rockets]]></answer>
+      <answer><![CDATA[M&Ms]]></answer>
+      <answer><![CDATA[Candy Kisses]]></answer>
+      <answer><![CDATA[Candy Corn]]></answer>
+    </answers>
+  </item>
+  
+  <item>
+    <category>Halloween Set 1</category>
+    <question type='text'><![CDATA[What might you "bob" for on Halloween?]]>
+    </question>
+    <answers answerLayout='4type3' correctAnswer='2'>
+      <answer><![CDATA[Sweet potatoes]]></answer>
+      <answer><![CDATA[Apples]]></answer>
+      <answer><![CDATA[Walnuts]]></answer>
+      <answer><![CDATA[Pumpkins]]></answer>
     </answers>
   </item>
 
   <item>
-    <category>Set 1</category>
-    <question type='text'><![CDATA[In which city were the Olympics in 2012 held?]]>
+    <category>Halloween Set 1</category>
+    <question type='text'><![CDATA[Which country is credited with being the founder of Halloween?]]>
     </question>
-    <answers answerLayout='4type3' correctAnswer='2'>
-      <answer><![CDATA[Tokyo]]></answer>
+    <answers answerLayout='4type3' correctAnswer='3'>
+      <answer><![CDATA[Spain]]></answer>
       <answer><![CDATA[London]]></answer>
-      <answer><![CDATA[France]]></answer>
-      <answer><![CDATA[USA]]></answer>
+      <answer><![CDATA[Ireland]]></answer>
+      <answer><![CDATA[Romania]]></answer>
     </answers>
   </item>
 
   <item>
-    <category>Set 1</category>
-    <question type='text'><![CDATA[Blue,red and green are three of the five
-   						 rings of the olympic flag. What are the other two ?]]>
-    </question>
-    <answers answerLayout='4type3' correctAnswer='4'>
-      <answer><![CDATA[Yellow & White]]></answer>
-      <answer><![CDATA[Gold & White]]></answer>
-      <answer><![CDATA[Orange & White]]></answer>
-      <answer><![CDATA[Yellow & Black]]></answer>
-    </answers>
-  </item>
-
-  <item>
-    <category>Set 1</category>
-    <question type='text'><![CDATA[How many days did the ancient games usually last?]]>
-    </question>
-    <answers answerLayout='4type3' correctAnswer='4'>
-      <answer><![CDATA[2 day]]></answer>
-      <answer><![CDATA[3 days]]></answer>
-      <answer><![CDATA[4 days]]></answer>
-      <answer><![CDATA[5 days]]></answer>
-    </answers>
-  </item>
-
-  <item>
-    <category>Set 1</category>
-    <question type='text'><![CDATA[The five rings of the Olympic flag symbolise: ]]>
-    </question>
-    <answers answerLayout='4type1' correctAnswer='4'>
-      <answer><![CDATA[The Five Ancient God]]></answer>
-      <answer><![CDATA[The Five Country]]></answer>
-      <answer><![CDATA[The Five Rivers]]></answer>
-      <answer><![CDATA[The Five Continents]]></answer>
-    </answers>
-  </item>
-
-  <item>
-    <category>Set 2</category>
-    <question type='text'><![CDATA[How many rounds are there in an Olympic
-    boxing match?]]>
-    </question>
-    <answers answerLayout='4type3' correctAnswer='3'>
-      <answer><![CDATA[2]]></answer>
-      <answer><![CDATA[6]]></answer>
-      <answer><![CDATA[4]]></answer>
-      <answer><![CDATA[3]]></answer>
-    </answers>
-  </item>
-
-  <item>
-    <category>Set 2</category>
-    <question type='text'><![CDATA[In what month did the ancient Olympics take place?]]>
-    </question>
-    <answers answerLayout='4type3' correctAnswer='2'>
-      <answer><![CDATA[June]]></answer>
-      <answer><![CDATA[August]]></answer>
-      <answer><![CDATA[September]]></answer>
-      <answer><![CDATA[July]]></answer>
-    </answers>
-  </item>
-
-  <item>
-    <category>Set 2</category>
-    <question type='text'><![CDATA[In which stadium will the opening
-    and closing ceremonies be?]]>
-    </question>
-    <answers answerLayout='4type3' correctAnswer='4'>
-      <answer><![CDATA[Sambadrome]]></answer>
-      <answer><![CDATA[Copacabana]]></answer>
-      <answer><![CDATA[HSBC Arena]]></answer>
-      <answer><![CDATA[Maracana]]></answer>
-    </answers>
-  </item>
-
-  <item>
-    <category>Set 2</category>
-    <question type='text'><![CDATA[Phiedippides ran over 26 miles in 490 BC to deliver
-    						the news of a lost battle.He ran from Marathon,
-   							where did he run to ?]]>
+    <category>Halloween Set 1</category>
+    <question type='text'><![CDATA[How do pumpkins grow?]]>
     </question>
     <answers answerLayout='4type3' correctAnswer='1'>
-      <answer><![CDATA[Athens]]></answer>
-      <answer><![CDATA[ Rome]]></answer>
-      <answer><![CDATA[Carthage]]></answer>
-      <answer><![CDATA[Oreos]]></answer>
+      <answer><![CDATA[On a vine]]></answer>
+      <answer><![CDATA[It's a Halloween mystery]]></answer>
+      <answer><![CDATA[In the ground]]></answer>
+      <answer><![CDATA[On trees in clusters]]></answer>
+    </answers>
+  </item>
+
+  <item>
+    <category>Halloween Set 1</category>
+    <question type='text'><![CDATA[Which two colors are associated with Halloween?]]>
+    </question>
+    <answers answerLayout='4type3' correctAnswer='3'>
+      <answer><![CDATA[Orange and brown]]></answer>
+      <answer><![CDATA[Orange and green]]></answer>
+      <answer><![CDATA[Black and orange]]></answer>
+      <answer><![CDATA[Black and white]]></answer>
+    </answers>
+  </item>
+
+  <item>
+    <category>Halloween Set 1</category>
+    <question type='text'><![CDATA[Orange is the color of __________]]>
+    </question>
+    <answers answerLayout='4type1' correctAnswer='1'>
+      <answer><![CDATA[Harvest]]></answer>
+      <answer><![CDATA[love]]></answer>
+      <answer><![CDATA[Fear]]></answer>
+      <answer><![CDATA[Beauty]]></answer>
+    </answers>
+  </item>
+
+  <item>
+    <category>Halloween Set 2</category>
+    <question type='text'><![CDATA[When do Mexicans celebrate the "Day of the Dead"?]]>
+    </question>
+    <answers answerLayout='4type3' correctAnswer='1'>
+      <answer><![CDATA[November 1st]]></answer>
+      <answer><![CDATA[October 30th]]></answer>
+      <answer><![CDATA[November 30th]]></answer>
+      <answer><![CDATA[October 31st]]></answer>
+    </answers>
+  </item>
+
+  <item>
+    <category>Halloween Set 2</category>
+    <question type='text'><![CDATA[If you were born on Halloween, what ability might you have?]]>
+    </question>
+    <answers answerLayout='4type3' correctAnswer='4'>
+      <answer><![CDATA[The ability to move things with your mind]]></answer>
+      <answer><![CDATA[The ability to spirit walk]]></answer>
+      <answer><![CDATA[The ability to see the future]]></answer>
+      <answer><![CDATA[The ability to talk to the dead]]></answer>
+    </answers>
+  </item>
+
+  <item>
+    <category>Halloween Set 2</category>
+    <question type='text'><![CDATA[What is the significance of being the first person to bite an apple on a string?]]>
+    </question>
+    <answers answerLayout='4type3' correctAnswer='4'>
+      <answer><![CDATA[Gets to kiss the prettiest girl]]></answer>
+      <answer><![CDATA[Will have a long life]]></answer>
+      <answer><![CDATA[Will have good luck]]></answer>
+      <answer><![CDATA[Next to marry]]></answer>
+    </answers>
+  </item>
+
+  <item>
+    <category>Halloween Set 2</category>
+    <question type='text'><![CDATA[If you want to keep spirits out of your home on Halloween, what should you sprinkle on the doorstep?]]>
+    </question>
+    <answers answerLayout='4type3' correctAnswer='3'>
+      <answer><![CDATA[Garlic]]></answer>
+      <answer><![CDATA[Mint]]></answer>
+      <answer><![CDATA[Salt]]></answer>
+      <answer><![CDATA[Cinnamon]]></answer>
     </answers>
   </item>
 
   <!--<item>-->
-    <!--<category>Set 2</category>-->
+    <!--<category>Halloween Set 2</category>-->
     <!--<question type='text'><![CDATA[Five sports have been contested-->
 		<!--at every Summer Olympic Games since 1896.-->
 		<!--Which is not in that group?]]></question>-->
@@ -198,178 +190,169 @@
   <!--</item>-->
 
     <item>
-        <category>Set 2</category>
-        <question type='text'><![CDATA[What Olympic symbol represents peace,
-                                unity and friendship?]]>
+        <category>Halloween Set 2</category>
+        <question type='text'><![CDATA[Which country eats Brambrack on Halloween?]]>
         </question>
-        <answers answerLayout='4type3' correctAnswer='4'>
-            <answer><![CDATA[Rings]]></answer>
-            <answer><![CDATA[Medal]]></answer>
-            <answer><![CDATA[Torch]]></answer>
-            <answer><![CDATA[Flame]]></answer>
+        <answers answerLayout='4type3' correctAnswer='1'>
+            <answer><![CDATA[Ireland]]></answer>
+            <answer><![CDATA[Germany]]></answer>
+            <answer><![CDATA[Mexico]]></answer>
+            <answer><![CDATA[Canada]]></answer>
         </answers>
     </item>
 
   <item>
-    <category>Set 2</category>
-    <question type='text'><![CDATA[How far is a modern Olympic Marathon,
-    						to the nearest mile ?]]>
+    <category>Halloween Set 2</category>
+    <question type='text'><![CDATA[ Which country locks up their cats on Halloween?]]>
     </question>
     <answers answerLayout='4type3' correctAnswer='3'>
-      <answer><![CDATA[16 miles]]></answer>
-      <answer><![CDATA[18 miles]]></answer>
-      <answer><![CDATA[26 miles]]></answer>
-      <answer><![CDATA[28 miles]]></answer>
+      <answer><![CDATA[Laos]]></answer>
+      <answer><![CDATA[China]]></answer>
+      <answer><![CDATA[England]]></answer>
+      <answer><![CDATA[Columbia]]></answer>
     </answers>
   </item>
 
   <item>
-    <category>Set 2</category>
-    <question type='text'><![CDATA[How many times have the Olympic games been
-    cancelled due to war since 1896 ?]]>
+    <category>Halloween Set 2</category>
+    <question type='text'><![CDATA[Which country uses apple peels on Halloween to predict a person's future?]]>
     </question>
-    <answers answerLayout='4type3' correctAnswer='3'>
-      <answer><![CDATA[Twice]]></answer>
-      <answer><![CDATA[Once]]></answer>
-      <answer><![CDATA[Three Time]]></answer>
-      <answer><![CDATA[Never]]></answer>
+    <answers answerLayout='4type3' correctAnswer='1'>
+      <answer><![CDATA[Scotland]]></answer>
+      <answer><![CDATA[Spain]]></answer>
+      <answer><![CDATA[Russia]]></answer>
+      <answer><![CDATA[Brazil]]></answer>
     </answers>
   </item>
 
 	<item>
-		<category>Set 2</category>
-		<question type='text'><![CDATA[Which Committee decides
-								where Olympic games will be held ?]]>
+		<category>Halloween Set 2</category>
+		<question type='text'><![CDATA[What item was often baked
+		into a Halloween Barmbrack and when found would indicate
+		that the finder would have good fortune in the coming year?]]>
 		</question>
-		<answers answerLayout='4type1' correctAnswer='3'>
-			<answer><![CDATA[The International Olympic Board]]></answer>
-			<answer><![CDATA[United Nations Committee on Sport]]></answer>
-			<answer><![CDATA[The International Olympic Committee]]></answer>
-			<answer><![CDATA[The International Sports Committee]]></answer>
+		<answers answerLayout='4type1' correctAnswer='2'>
+			<answer><![CDATA[A button]]></answer>
+			<answer><![CDATA[A coin]]></answer>
+			<answer><![CDATA[A bead]]></answer>
+			<answer><![CDATA[A bean]]></answer>
 		</answers>
 	</item>
 
 	<item>
-		<category>Set 2</category>
-		<question type='text'><![CDATA[Over what distance
-		are the men athletics High Hurdles ?]]>
-		</question>
-		<answers answerLayout='4type3' correctAnswer='4 '>
-			<answer><![CDATA[70m]]></answer>
-			<answer><![CDATA[80m]]></answer>
-			<answer><![CDATA[100m]]></answer>
-			<answer><![CDATA[110m]]></answer>
-		</answers>
-	</item>
-
-	<item>
-		<category>Set 2</category>
-		<question type='text'><![CDATA[How many sports will there be
-							at the 2016 Olympic Games?]]>
-		</question>
-		<answers answerLayout='4type3' correctAnswer='3'>
-			<answer><![CDATA[20]]></answer>
-			<answer><![CDATA[30]]></answer>
-			<answer><![CDATA[28]]></answer>
-			<answer><![CDATA[19]]></answer>
-		</answers>
-	</item>
-
-	<item>
-		<category>Set 3</category>
-		<question type='text'><![CDATA[How many players, per team,
-						are there for volley ball?]]>
+		<category>Halloween Set 2</category>
+		<question type='text'><![CDATA[Which country celebrates the Festival of the Hungry ghosts?]]>
 		</question>
 		<answers answerLayout='4type3' correctAnswer='1'>
-			<answer><![CDATA[6]]></answer>
-			<answer><![CDATA[4]]></answer>
-			<answer><![CDATA[5]]></answer>
-			<answer><![CDATA[8]]></answer>
+			<answer><![CDATA[China]]></answer>
+			<answer><![CDATA[Hungry]]></answer>
+			<answer><![CDATA[Peru]]></answer>
+			<answer><![CDATA[Australia]]></answer>
 		</answers>
 	</item>
 
 	<item>
-		<category>Set 3</category>
-		<question type='text'><![CDATA[Which country has the lowest number
-								of total Olympic medals per capita ?]]>
+		<category>Halloween Set 2</category>
+		<question type='text'><![CDATA[Which country traditionally opens all the doors and windows
+		                                    in the house to welcome spirits and ghosts?]]>
+		</question>
+		<answers answerLayout='4type3' correctAnswer='4'>
+			<answer><![CDATA[New Zealand]]></answer>
+			<answer><![CDATA[England]]></answer>
+			<answer><![CDATA[America]]></answer>
+			<answer><![CDATA[Poland]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>Halloween Set 3</category>
+		<question type='text'><![CDATA[It is a tradition to hide all the knives in the house,
+		                                    on Halloween, in which country?]]>
 		</question>
 		<answers answerLayout='4type3' correctAnswer='2'>
-			<answer><![CDATA[Brazil]]></answer>
+			<answer><![CDATA[France]]></answer>
+			<answer><![CDATA[Germany]]></answer>
 			<answer><![CDATA[India]]></answer>
-			<answer><![CDATA[Greece]]></answer>
+			<answer><![CDATA[Japan]]></answer>
+		</answers>
+	</item>
+
+	<item>
+		<category>Halloween Set 3</category>
+		<question type='text'><![CDATA[Which country cooks Beans of the Dead?]]>
+		</question>
+		<answers answerLayout='4type3' correctAnswer='3'>
+			<answer><![CDATA[Brazil]]></answer>
+			<answer><![CDATA[Scotland]]></answer>
+			<answer><![CDATA[Italy]]></answer>
 			<answer><![CDATA[USA]]></answer>
 		</answers>
 	</item>
 
 	<item>
-		<category>Set 3</category>
-		<question type='text'><![CDATA[The most common surname
-		for an Olympic athlete ?]]>
+		<category>Halloween Set 3</category>
+		<question type='text'><![CDATA[Which country celebrates Halloween by leaving
+		                                   water,bread and a light on the table?]]>
 		</question>
 		<answers answerLayout='4type3' correctAnswer='3'>
-			<answer><![CDATA[Robert]]></answer>
-			<answer><![CDATA[Alex]]></answer>
-			<answer><![CDATA[Kim]]></answer>
-			<answer><![CDATA[Micheal]]></answer>
+			<answer><![CDATA[New Zealand]]></answer>
+			<answer><![CDATA[Iceland]]></answer>
+			<answer><![CDATA[Austria]]></answer>
+			<answer><![CDATA[Ireland]]></answer>
 		</answers>
 	</item>
 
 	<item>
-		<category>Set 3</category>
-		<question type='text'><![CDATA[Which was the first movie
-								to feature the Olympic Games ?]]>
+		<category>Halloween Set 3</category>
+		<question type='text'><![CDATA[O-Bon is celebrated in which country?]]>
 		</question>
 		<answers answerLayout='4type1' correctAnswer='1'>
-			<answer><![CDATA[Nine and Three-Fifth Seconds]]></answer>
-			<answer><![CDATA[The Olympic Hero]]></answer>
-			<answer><![CDATA[Charlie Chan as the Olympics]]></answer>
-			<answer><![CDATA[A Million to One]]></answer>
+			<answer><![CDATA[Japan]]></answer>
+			<answer><![CDATA[France]]></answer>
+			<answer><![CDATA[South Africa]]></answer>
+			<answer><![CDATA[Argentina]]></answer>
 		</answers>
 	</item>
 
 	<item>
-		<category>Set 3</category>
-		<question type='text'><![CDATA[Which country's track and field athletes
-		 						were banned from the Rio Games following the
-		 						revelation of a doping scandal?]]>
+		<category>Halloween Set 3</category>
+		<question type='text'><![CDATA[According to legend, which of these items do werewolves hate?]]>
 		</question>
-		<answers answerLayout='4type1' correctAnswer='4'>
-			<answer><![CDATA[Colombia]]></answer>
-			<answer><![CDATA[Qatar]]></answer>
-			<answer><![CDATA[Spain]]></answer>
-			<answer><![CDATA[Russia]]></answer>
+		<answers answerLayout='4type1' correctAnswer='2'>
+			<answer><![CDATA[Basil]]></answer>
+			<answer><![CDATA[Salt]]></answer>
+			<answer><![CDATA[Sage]]></answer>
+			<answer><![CDATA[Garlic]]></answer>
 		</answers>
 	</item>
 
 	<item>
-		<category>Set 3</category>
-		<question type='text'><![CDATA[Which two countries
-		will be competing for the first time?]]>
+		<category>Halloween Set 3</category>
+		<question type='text'><![CDATA[What is the term used to describe
+		                            when a person changes into a wolf?]]>
 		</question>
 		<answers answerLayout='4type1' correctAnswer='3'>
-			<answer><![CDATA[Burundi,Malawi]]></answer>
-			<answer><![CDATA[Iceland,Yemen]]></answer>
-			<answer><![CDATA[South Sudan,Kosovo]]></answer>
-			<answer><![CDATA[Aruba,Laos]]></answer>
+			<answer><![CDATA[Cynanthropy]]></answer>
+			<answer><![CDATA[Hycanthropy]]></answer>
+			<answer><![CDATA[Lycanthropy]]></answer>
+			<answer><![CDATA[Alluranthropy]]></answer>
 		</answers>
 	</item>
 
 	<item>
-		<category>Set 3</category>
-		<question type='text'><![CDATA[Which country is the largest,
-		 in terms of population, to never win a gold medal
-		 at the Summer Olympics?]]>
+		<category>Halloween Set 3</category>
+		<question type='text'><![CDATA[The "Beast of Gevaudan" incident occurred in which nation?]]>
 		</question>
 		<answers answerLayout='4type1' correctAnswer='3'>
-			<answer><![CDATA[Soudi Arabia]]></answer>
-			<answer><![CDATA[Iceland]]></answer>
-			<answer><![CDATA[Bangladesh]]></answer>
-			<answer><![CDATA[Malaysia]]></answer>
+			<answer><![CDATA[Germany]]></answer>
+			<answer><![CDATA[America]]></answer>
+			<answer><![CDATA[France]]></answer>
+			<answer><![CDATA[England]]></answer>
 		</answers>
 	</item>
 
   <!--<item>-->
-    <!--<category>Set 3</category>-->
+    <!--<category>Halloween Set 3</category>-->
     <!--<question type='text'><![CDATA[Which one is snow boarding?]]></question>-->
     <!--<answers answerLayout='5type1' correctAnswer='1'>-->
       <!--<answer x='200' y='500' type='image'>assets/questions/snowboarding.png</answer>-->
@@ -380,77 +363,71 @@
   <!--</item>-->
 
     <item>
-        <category>Set 3</category>
-        <question type='text'><![CDATA[The official language of Brazil is _______]]>
+        <category>Halloween Set 3</category>
+        <question type='text'><![CDATA[What kind of bullet will kill a werewolf?]]>
         </question>
-        <answers answerLayout='4type1' correctAnswer='1'>
-            <answer><![CDATA[Portuguese]]></answer>
-            <answer><![CDATA[French]]></answer>
-            <answer><![CDATA[Dutch]]></answer>
-            <answer><![CDATA[Spanish]]></answer>
+        <answers answerLayout='4type1' correctAnswer='4'>
+            <answer><![CDATA[Gold]]></answer>
+            <answer><![CDATA[Pewter]]></answer>
+            <answer><![CDATA[Copper]]></answer>
+            <answer><![CDATA[Silver]]></answer>
         </answers>
     </item>
 
 	<item>
-		<category>Set 3</category>
-		<question type='text'><![CDATA[Which sport comprises the majority of athletes
-		 who have withdrawn from the Games
-		 due to concerns about Zika virus?]]>
+		<category>Halloween Set 3</category>
+		<question type='text'><![CDATA[What is the name of the Norse wolf god?]]>
 		</question>
-		<answers answerLayout='4type1' correctAnswer='2'>
-			<answer><![CDATA[Sailing]]></answer>
-			<answer><![CDATA[Golf]]></answer>
-			<answer><![CDATA[Wrestling]]></answer>
-			<answer><![CDATA[Beach Volleyball]]></answer>
+		<answers answerLayout='4type1' correctAnswer='1'>
+			<answer><![CDATA[Fenrir]]></answer>
+			<answer><![CDATA[Odin]]></answer>
+			<answer><![CDATA[Loki]]></answer>
+			<answer><![CDATA[Hei]]></answer>
 		</answers>
 	</item>
 
   <item>
-    <category>Set 3</category>
-    <question type='text'><![CDATA[In which city
-    				were the first Modern Olympics held?]]></question>
+    <category>Halloween Set 3</category>
+    <question type='text'><![CDATA[Which of these plants will repel a werewolf?]]></question>
     <answers answerLayout='4type3' correctAnswer='3'>
-      <answer width='300'>Munich</answer>
-      <answer width='300'>Barcelona</answer>
-      <answer width='300'>Athens</answer>
-      <answer width='300'>Olympia </answer>
+      <answer width='300'>Lily</answer>
+      <answer width='300'>Poinsettia</answer>
+      <answer width='300'>Mistletoe</answer>
+      <answer width='300'>Orchid</answer>
     </answers>
   </item>
 
     <item>
         <category>Set 4</category>
-        <question type='text'><![CDATA[In which year India first participated
-        in olympic?]]></question>
-        <answers answerLayout='4type3' correctAnswer='1'>
-            <answer width='300'>1900</answer>
-            <answer width='300'>1932</answer>
-            <answer width='300'>1928</answer>
-            <answer width='300'>1904 </answer>
+        <question type='text'><![CDATA[Which artist recorded the 1978 hit, "Werewolves in London"?]]></question>
+        <answers answerLayout='4type3' correctAnswer='4'>
+            <answer width='300'>David Bowie</answer>
+            <answer width='300'>Elvis Costello</answer>
+            <answer width='300'>Neil Diamond</answer>
+            <answer width='300'>Warren Zevon</answer>
         </answers>
     </item>
 
     <item>
         <category>Set 4</category>
-        <question type='text'><![CDATA[Which country won eleven medals in twelve
-        Olympics between 1928 and 1980 in hockey]]></question>
+        <question type='text'><![CDATA[If chased by a werewolf,
+                                which tree would be the best to climb?]]></question>
         <answers answerLayout='4type3' correctAnswer='3'>
-            <answer width='300'>USA</answer>
-            <answer width='300'>Russia</answer>
-            <answer width='300'>India</answer>
-            <answer width='300'>China</answer>
+            <answer width='300'>Popular</answer>
+            <answer width='300'>Olive</answer>
+            <answer width='300'>Ash</answer>
+            <answer width='300'>Maple</answer>
         </answers>
     </item>
 
     <item>
         <category>Set 4</category>
-        <question type='text'><![CDATA[Women made their Olympic debut
-        during the 1900 Summer Games in France.
-        In which two games they participated ?]]></question>
-        <answers answerLayout='4type3' correctAnswer='2'>
-            <answer><![CDATA[Sailing & Golf]]></answer>
-            <answer><![CDATA[Golf & Tennis]]></answer>
-            <answer><![CDATA[Archery & Judo]]></answer>
-            <answer><![CDATA[Cycling & Polo]]></answer>
+        <question type='text'><![CDATA[What kind of crop can protect you from a werewolf?]]></question>
+        <answers answerLayout='4type3' correctAnswer='1'>
+            <answer><![CDATA[Rye]]></answer>
+            <answer><![CDATA[Oats]]></answer>
+            <answer><![CDATA[Corn]]></answer>
+            <answer><![CDATA[Wheat]]></answer>
         </answers>
     </item>
 
