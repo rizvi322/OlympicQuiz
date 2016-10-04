@@ -14,13 +14,13 @@
 	<!--</item>-->
 
     <item>
-        <category>Halloween Halloween Set 1</category>
+        <category>Halloween Set 1</category>
         <question type='text'><![CDATA[Halloween is celebrated on what day?]]></question>
-        <answers answerLayout='4type3' correctAnswer='1'>
-            <answer width='250'><![CDATA[October 31st]]></answer>
-            <answer width='250'><![CDATA[October 1st]]></answer>
-            <answer width='250'><![CDATA[October 15th]]></answer>
-            <answer width='250'><![CDATA[ November 1st]]></answer>
+        <answers answerLayout='4type1' correctAnswer='1'>
+            <answer><![CDATA[October 31st]]></answer>
+            <answer><![CDATA[October 1st]]></answer>
+            <answer><![CDATA[October 15th]]></answer>
+            <answer><![CDATA[ November 1st]]></answer>
         </answers>
     </item>
 
@@ -37,23 +37,24 @@
   
   <item>
     <category>Halloween Set 1</category>
-    <question type='text'><![CDATA[.According to superstition, hearing an owl's call means?]]></question>
-    <answers answerLayout='4type3' correctAnswer='4'>
+    <question type='text'><![CDATA[According to superstition,
+    hearing an owl's call means?]]></question>
+    <answers answerLayout='4type1' correctAnswer='4'>
       <answer><![CDATA[A baby is being born]]></answer>
       <answer><![CDATA[There is a ghost about]]></answer>
-      <answer><![CDATA[The weather is going to turn bad]]></answer>
+      <answer><![CDATA[Weather is going to turn bad]]></answer>
       <answer><![CDATA[Someone is about to die]]></answer>
     </answers>
   </item>
   
-  <item>
+  <item>s
     <category>Halloween Set 1</category>
     <question type='text'><![CDATA[What does seeing a spider on Halloween mean?]]></question>
-    <answers answerLayout='4type3' correctAnswer='3'>
-      <answer><![CDATA[You will have bad luck]]></answer>
-      <answer><![CDATA[You are going to die very soon]]></answer>
+    <answers answerLayout='4type1' correctAnswer='3'>
+      <answer><![CDATA[Will have bad luck]]></answer>
+      <answer><![CDATA[Going to die very soon]]></answer>
       <answer><![CDATA[A loved one is watching]]></answer>
-      <answer><![CDATA[You are going to have good luck in the following year]]></answer>
+      <answer><![CDATA[Good luck]]></answer>
     </answers>
   </item>
   
@@ -82,7 +83,8 @@
 
   <item>
     <category>Halloween Set 1</category>
-    <question type='text'><![CDATA[Which country is credited with being the founder of Halloween?]]>
+    <question type='text'><![CDATA[Which country is credited
+    with being the founder of Halloween?]]>
     </question>
     <answers answerLayout='4type3' correctAnswer='3'>
       <answer><![CDATA[Spain]]></answer>
@@ -96,11 +98,11 @@
     <category>Halloween Set 1</category>
     <question type='text'><![CDATA[How do pumpkins grow?]]>
     </question>
-    <answers answerLayout='4type3' correctAnswer='1'>
+    <answers answerLayout='4type1' correctAnswer='1'>
       <answer><![CDATA[On a vine]]></answer>
-      <answer><![CDATA[It's a Halloween mystery]]></answer>
+      <answer><![CDATA[Halloween mystery]]></answer>
       <answer><![CDATA[In the ground]]></answer>
-      <answer><![CDATA[On trees in clusters]]></answer>
+      <answer><![CDATA[On trees]]></answer>
     </answers>
   </item>
 
@@ -108,11 +110,11 @@
     <category>Halloween Set 1</category>
     <question type='text'><![CDATA[Which two colors are associated with Halloween?]]>
     </question>
-    <answers answerLayout='4type3' correctAnswer='3'>
-      <answer><![CDATA[Orange and brown]]></answer>
-      <answer><![CDATA[Orange and green]]></answer>
-      <answer><![CDATA[Black and orange]]></answer>
-      <answer><![CDATA[Black and white]]></answer>
+    <answers answerLayout='4type1' correctAnswer='3'>
+      <answer><![CDATA[Orange & brown]]></answer>
+      <answer><![CDATA[Orange & green]]></answer>
+      <answer><![CDATA[Black & orange]]></answer>
+      <answer><![CDATA[Black & white]]></answer>
     </answers>
   </item>
 
@@ -132,7 +134,7 @@
     <category>Halloween Set 2</category>
     <question type='text'><![CDATA[When do Mexicans celebrate the "Day of the Dead"?]]>
     </question>
-    <answers answerLayout='4type3' correctAnswer='1'>
+    <answers answerLayout='4type1' correctAnswer='1'>
       <answer><![CDATA[November 1st]]></answer>
       <answer><![CDATA[October 30th]]></answer>
       <answer><![CDATA[November 30th]]></answer>
@@ -142,31 +144,35 @@
 
   <item>
     <category>Halloween Set 2</category>
-    <question type='text'><![CDATA[If you were born on Halloween, what ability might you have?]]>
+    <question type='text'><![CDATA[If you were born on Halloween,
+    what ability might you have?]]>
     </question>
-    <answers answerLayout='4type3' correctAnswer='4'>
-      <answer><![CDATA[The ability to move things with your mind]]></answer>
-      <answer><![CDATA[The ability to spirit walk]]></answer>
-      <answer><![CDATA[The ability to see the future]]></answer>
-      <answer><![CDATA[The ability to talk to the dead]]></answer>
+    <answers answerLayout='4type1' correctAnswer='4'>
+      <answer><![CDATA[Move things with your mind]]></answer>
+      <answer><![CDATA[Read Mind]]></answer>
+      <answer><![CDATA[See the future]]></answer>
+      <answer><![CDATA[Talk to the dead]]></answer>
     </answers>
   </item>
 
   <item>
     <category>Halloween Set 2</category>
-    <question type='text'><![CDATA[What is the significance of being the first person to bite an apple on a string?]]>
+    <question type='text'><![CDATA[What is the significance of
+    being the first person to bite an apple on a string?]]>
     </question>
-    <answers answerLayout='4type3' correctAnswer='4'>
-      <answer><![CDATA[Gets to kiss the prettiest girl]]></answer>
+    <answers answerLayout='4type1' correctAnswer='4'>
+      <answer><![CDATA[Kiss the prettiest girl]]></answer>
       <answer><![CDATA[Will have a long life]]></answer>
       <answer><![CDATA[Will have good luck]]></answer>
-      <answer><![CDATA[Next to marry]]></answer>
+      <answer ><![CDATA[Next to marry]]></answer>
     </answers>
   </item>
 
   <item>
     <category>Halloween Set 2</category>
-    <question type='text'><![CDATA[If you want to keep spirits out of your home on Halloween, what should you sprinkle on the doorstep?]]>
+    <question type='text'><![CDATA[If you want to keep spirits
+    out of your home on Halloween,what should
+    you sprinkle on the doorstep?]]>
     </question>
     <answers answerLayout='4type3' correctAnswer='3'>
       <answer><![CDATA[Garlic]]></answer>
@@ -215,7 +221,8 @@
 
   <item>
     <category>Halloween Set 2</category>
-    <question type='text'><![CDATA[Which country uses apple peels on Halloween to predict a person's future?]]>
+    <question type='text'><![CDATA[Which country uses apple peels
+    on Halloween to predict a person's future?]]>
     </question>
     <answers answerLayout='4type3' correctAnswer='1'>
       <answer><![CDATA[Scotland]]></answer>
@@ -227,9 +234,9 @@
 
 	<item>
 		<category>Halloween Set 2</category>
-		<question type='text'><![CDATA[What item was often baked
-		into a Halloween Barmbrack and when found would indicate
-		that the finder would have good fortune in the coming year?]]>
+		<question type='text'><![CDATA[What item was often baked into Halloween
+		 Barmbrack & when found would indicate that the
+		finder would have good fortune in the coming year?]]>
 		</question>
 		<answers answerLayout='4type1' correctAnswer='2'>
 			<answer><![CDATA[A button]]></answer>
@@ -241,7 +248,8 @@
 
 	<item>
 		<category>Halloween Set 2</category>
-		<question type='text'><![CDATA[Which country celebrates the Festival of the Hungry ghosts?]]>
+		<question type='text'><![CDATA[Which country celebrates
+		the Festival of the Hungry ghosts?]]>
 		</question>
 		<answers answerLayout='4type3' correctAnswer='1'>
 			<answer><![CDATA[China]]></answer>
@@ -253,8 +261,9 @@
 
 	<item>
 		<category>Halloween Set 2</category>
-		<question type='text'><![CDATA[Which country traditionally opens all the doors and windows
-		                                    in the house to welcome spirits and ghosts?]]>
+		<question type='text'><![CDATA[Which country traditionally opens
+		all the doors and windows in the house
+		to welcome spirits and ghosts?]]>
 		</question>
 		<answers answerLayout='4type3' correctAnswer='4'>
 			<answer><![CDATA[New Zealand]]></answer>
@@ -267,7 +276,7 @@
 	<item>
 		<category>Halloween Set 3</category>
 		<question type='text'><![CDATA[It is a tradition to hide all the knives in the house,
-		                                    on Halloween, in which country?]]>
+		                       on Halloween, in which country?]]>
 		</question>
 		<answers answerLayout='4type3' correctAnswer='2'>
 			<answer><![CDATA[France]]></answer>
@@ -291,8 +300,8 @@
 
 	<item>
 		<category>Halloween Set 3</category>
-		<question type='text'><![CDATA[Which country celebrates Halloween by leaving
-		                                   water,bread and a light on the table?]]>
+		<question type='text'><![CDATA[Which country celebrates Halloween
+		by leaving water,bread and a light on the table?]]>
 		</question>
 		<answers answerLayout='4type3' correctAnswer='3'>
 			<answer><![CDATA[New Zealand]]></answer>
@@ -316,7 +325,8 @@
 
 	<item>
 		<category>Halloween Set 3</category>
-		<question type='text'><![CDATA[According to legend, which of these items do werewolves hate?]]>
+		<question type='text'><![CDATA[According to legend,
+		which of these items do werewolves hate?]]>
 		</question>
 		<answers answerLayout='4type1' correctAnswer='2'>
 			<answer><![CDATA[Basil]]></answer>
@@ -329,7 +339,7 @@
 	<item>
 		<category>Halloween Set 3</category>
 		<question type='text'><![CDATA[What is the term used to describe
-		                            when a person changes into a wolf?]]>
+		 when a person changes into a wolf?]]>
 		</question>
 		<answers answerLayout='4type1' correctAnswer='3'>
 			<answer><![CDATA[Cynanthropy]]></answer>
@@ -341,7 +351,8 @@
 
 	<item>
 		<category>Halloween Set 3</category>
-		<question type='text'><![CDATA[The "Beast of Gevaudan" incident occurred in which nation?]]>
+		<question type='text'><![CDATA[The "Beast of Gevaudan" incident
+		occurred in which nation?]]>
 		</question>
 		<answers answerLayout='4type1' correctAnswer='3'>
 			<answer><![CDATA[Germany]]></answer>
@@ -398,20 +409,21 @@
   </item>
 
     <item>
-        <category>Set 4</category>
-        <question type='text'><![CDATA[Which artist recorded the 1978 hit, "Werewolves in London"?]]></question>
-        <answers answerLayout='4type3' correctAnswer='4'>
-            <answer width='300'>David Bowie</answer>
-            <answer width='300'>Elvis Costello</answer>
-            <answer width='300'>Neil Diamond</answer>
-            <answer width='300'>Warren Zevon</answer>
+        <category>Halloween Set 4</category>
+        <question type='text'><![CDATA[Which artist recorded the 1978 hit,
+        "Werewolves in London"?]]></question>
+        <answers answerLayout='4type1' correctAnswer='4'>
+            <answer>David Bowie</answer>
+            <answer>Elvis Costello</answer>
+            <answer>Neil Diamond</answer>
+            <answer>Warren Zevon</answer>
         </answers>
     </item>
 
     <item>
-        <category>Set 4</category>
-        <question type='text'><![CDATA[If chased by a werewolf,
-                                which tree would be the best to climb?]]></question>
+        <category>Halloween Set 4</category>
+        <question type='text'><![CDATA[If chased by a werewolf,which tree
+        would be the best to climb?]]></question>
         <answers answerLayout='4type3' correctAnswer='3'>
             <answer width='300'>Popular</answer>
             <answer width='300'>Olive</answer>
@@ -421,7 +433,7 @@
     </item>
 
     <item>
-        <category>Set 4</category>
+        <category>Halloween Set 4</category>
         <question type='text'><![CDATA[What kind of crop can protect you from a werewolf?]]></question>
         <answers answerLayout='4type3' correctAnswer='1'>
             <answer><![CDATA[Rye]]></answer>
@@ -432,86 +444,81 @@
     </item>
 
     <item>
-        <category>Set 4</category>
-        <question type='text'><![CDATA[How may events are there
-         in rio olympic 2016?]]></question>
+        <category>Halloween Set 4</category>
+        <question type='text'><![CDATA[Transylvania is a region in which country?]]></question>
         <answers answerLayout='4type3' correctAnswer='4'>
-            <answer><![CDATA[300]]></answer>
-            <answer><![CDATA[301]]></answer>
-            <answer><![CDATA[304]]></answer>
-            <answer><![CDATA[306]]></answer>
+            <answer><![CDATA[Italy]]></answer>
+            <answer><![CDATA[Ireland]]></answer>
+            <answer><![CDATA[Greece]]></answer>
+            <answer><![CDATA[Romania]]></answer>
         </answers>
     </item>
 
     <item>
-        <category>Set 4</category>
-        <question type='text'><![CDATA[Which country has won the first
-        gold medal in rio 2016]]></question>
+        <category>Halloween Set 4</category>
+        <question type='text'><![CDATA[Often seen in a cemetery, what is "Kalbar"?]]></question>
         <answers answerLayout='4type3' correctAnswer='3'>
-            <answer><![CDATA[China]]></answer>
-            <answer><![CDATA[Japan]]></answer>
-            <answer><![CDATA[USA]]></answer>
-            <answer><![CDATA[Brazil]]></answer>
+            <answer><![CDATA[Horse]]></answer>
+            <answer><![CDATA[Monkey]]></answer>
+            <answer><![CDATA[Dog]]></answer>
+            <answer><![CDATA[Cat]]></answer>
         </answers>
     </item>
 
     <item>
-        <category>Set 4</category>
-        <question type='text'><![CDATA[Which country hosted the
-        first winter olympic ?]]></question>
+        <category>Halloween Set 4</category>
+        <question type='text'><![CDATA[Part of a ghost hunter's gear,
+        what do EMFs measure?]]></question>
+        <answers answerLayout='4type1' correctAnswer='4'>
+            <answer><![CDATA[Change in pressure]]></answer>
+            <answer><![CDATA[Change in the light spectrum]]></answer>
+            <answer><![CDATA[Change in temperature]]></answer>
+            <answer><![CDATA[Electrically charged objects]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Halloween Set 4</category>
+        <question type='text'><![CDATA[What kind of ghost is a "Pontianak"?]]></question>
+        <answers answerLayout='4type1' correctAnswer='1'>
+            <answer><![CDATA[Vampiric]]></answer>
+            <answer><![CDATA[Simple orb]]></answer>
+            <answer><![CDATA[War ghost]]></answer>
+            <answer><![CDATA[Kind of poltergeist]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Halloween Set 4</category>
+        <question type='text'><![CDATA[What do paranormal investigators
+         use to record sounds?]]></question>
         <answers answerLayout='4type3' correctAnswer='4'>
-            <answer><![CDATA[Canada]]></answer>
-            <answer><![CDATA[Japan]]></answer>
-            <answer><![CDATA[USA]]></answer>
-            <answer><![CDATA[France]]></answer>
+            <answer><![CDATA[ELP Recorder]]></answer>
+            <answer><![CDATA[EMF Recorder]]></answer>
+            <answer><![CDATA[EMP Recorder]]></answer>
+            <answer><![CDATA[EVP Recorder]]></answer>
         </answers>
     </item>
 
     <item>
-        <category>Set 4</category>
-        <question type='text'><![CDATA[Golf is back at the Olympics this year.
-         When did it last feature?]]></question>
-        <answers answerLayout='4type3' correctAnswer='1'>
-            <answer><![CDATA[1904]]></answer>
-            <answer><![CDATA[1980]]></answer>
-            <answer><![CDATA[1996]]></answer>
-            <answer><![CDATA[1900]]></answer>
-        </answers>
-    </item>
-
-    <item>
-        <category>Set 4</category>
-        <question type='text'><![CDATA[Which of these countries has not hosted
-         the summer Olympics?]]></question>
-        <answers answerLayout='4type3' correctAnswer='2'>
-            <answer><![CDATA[Finland]]></answer>
-            <answer><![CDATA[India]]></answer>
-            <answer><![CDATA[Mexico]]></answer>
-            <answer><![CDATA[Belgium]]></answer>
-        </answers>
-    </item>
-
-    <item>
-        <category>Set 4</category>
-        <question type='text'><![CDATA[The ancient Games featured a competition
-         for which musicians?]]></question>
+        <category>Halloween Set 4</category>
+        <question type='text'><![CDATA[What is the fear of ghosts called?]]></question>
         <answers answerLayout='4type3' correctAnswer='3'>
-            <answer><![CDATA[Guitarists]]></answer>
-            <answer><![CDATA[Drummers ]]></answer>
-            <answer><![CDATA[Trumpeters]]></answer>
-            <answer><![CDATA[Singers]]></answer>
+            <answer><![CDATA[Ecophobia]]></answer>
+            <answer><![CDATA[Gynophobia]]></answer>
+            <answer><![CDATA[Phasmophobia]]></answer>
+            <answer><![CDATA[Algophobia]]></answer>
         </answers>
     </item>
 
     <item>
-        <category>Set 4</category>
-        <question type='text'><![CDATA[How many athletes are competing
-        at the Games in Rio?]]></question>
+        <category>Halloween Set 4</category>
+        <question type='text'><![CDATA[Who is known as the "Friendly Ghost"?]]></question>
         <answers answerLayout='4type3' correctAnswer='3'>
-            <answer><![CDATA[1026]]></answer>
-            <answer><![CDATA[2016 ]]></answer>
-            <answer><![CDATA[10500]]></answer>
-            <answer><![CDATA[20160]]></answer>
+            <answer><![CDATA[Yoda]]></answer>
+            <answer><![CDATA[Chucky]]></answer>
+            <answer><![CDATA[Casper]]></answer>
+            <answer><![CDATA[Holly]]></answer>
         </answers>
     </item>
 
