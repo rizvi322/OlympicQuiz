@@ -58,7 +58,6 @@ IAP.onError = function (errorCode, errorMessage) {
 };
 
 IAP.buy = function(productId){
-  alert("Buying....");
   storekit.purchase(productId);
 };
 
