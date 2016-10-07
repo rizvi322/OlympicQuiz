@@ -15,7 +15,7 @@ var categoryAllOption = true; //add ALL category select option
 var categoryContinueText = 'SELECT CATEGORY'; //text for category page button
 var categoryAllText = 'All'; //text for all category select option
 
-var backgroundColour = '#000000'; //background colour
+var backgroundColour = '#EA802E'; //background colour
 var questionTextColour = '#ffffff'; //question text colour
 var answerTextColour = '#000000'; //answer text colour
 var questionTextSize = 50; //question text size
@@ -59,7 +59,7 @@ var replayButtonText = 'TRY AGAIN'; //text for replay button
 //Social share, [SCORE] will replace with game score
 var shareText ='SHARE IT NOW'; //text for share instruction
 var shareTitle = 'New highscore on Quiz Game - Rio Olympic 2016 is [SCORE]';//social share score title
-var shareMessage = '[SCORE] is mine new highscore on Quiz Game -Rio Olympic 2016! Try it now!'; //social share score message
+var shareMessage = '[SCORE] is mine new highscore on Halloween 2016! Try it now!'; //social share score message
 
 /*!
  *
@@ -536,7 +536,7 @@ function buildAnswers(){
 									{w:canvasW/100 * 38, h:textHeight}];
 									
 	}else if(question_arr[sequenceCountNum].answerLayout == answerType_arr[5]){
-		startY = canvasH/100 * 50;
+		startY = canvasH/100 * 45;
 		answerLayoutPosition_arr = [{x:canvasW/2, y:startY},
 									{x:canvasW/2, y:startY + textHeight + textSpace},
 									{x:canvasW/2, y:startY + (textHeight*2) + (textSpace*2)},
