@@ -3,6 +3,7 @@
  */
 
 var PRODUCT_ID_ADFREE = "com.dteam.halloween.adfree";
+var localStorage = window.localStorage | {};
 
 IAP = {
   list: [PRODUCT_ID_ADFREE],
@@ -25,6 +26,10 @@ IAP.load = function () {
     restore:  IAP.onRestore,
     error:    IAP.onError
   });
+
+  if(localStorage['adfree']){
+    IAP.adFree = localStorage['adfree'];
+  }
 };
 
 IAP.onReady = function () {
@@ -42,6 +47,7 @@ IAP.onPurchase = function (transactionId, productId, receipt) {
     alert("Ads Removed!");
     IAP.adFree = true;
     //Code to remove ads for the user
+    localStorage['adfree'] = true;
   }
 };
 
@@ -49,6 +55,7 @@ IAP.onRestore = function (transactionId, productId, transactionReceipt) {
   if(productId == PRODUCT_ID_ADFREE){
     //Code to remove ads for the user
     IAP.adFree = true;
+    localStorage['adfree'] = true;
   }
 };
 

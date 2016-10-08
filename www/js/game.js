@@ -15,8 +15,8 @@ var categoryAllOption = true; //add ALL category select option
 var categoryContinueText = 'SELECT CATEGORY'; //text for category page button
 var categoryAllText = 'All'; //text for all category select option
 
-var backgroundColour = '#EA802E'; //background colour
-var questionTextColour = '#ffffff'; //question text colour
+var backgroundColour = '#000000'; //background colour
+var questionTextColour = '#FF0009'; //question text colour
 var answerTextColour = '#000000'; //answer text colour
 var questionTextSize = 50; //question text size
 var answerTextSize = 50; //answer text size

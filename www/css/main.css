@@ -59,13 +59,14 @@ resize:vertical;
    ========================================================================== */
    
 @font-face {
-	font-family: 'bariol_regularregular';
-    src: url('fonts/bariol_regular-webfont.eot');
-    src: url('fonts/bariol_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/bariol_regular-webfont.woff2') format('woff2'),
-         url('fonts/bariol_regular-webfont.woff') format('woff'),
-         url('fonts/bariol_regular-webfont.ttf') format('truetype'),
-         url('fonts/bariol_regular-webfont.svg#bariol_regularregular') format('svg');
+	font-family: 'vampire';
+    /*src: url('fonts/bariol_regular-webfont.eot');*/
+    src: url('fonts/vampire.ttf') format('truetype');
+    /*src: url('fonts/bariol_regular-webfont.eot?#iefix') format('embedded-opentype'),*/
+         /*url('fonts/bariol_regular-webfont.woff2') format('woff2'),*/
+         /*url('fonts/bariol_regular-webfont.woff') format('woff'),*/
+         /*url('fonts/bariol_regular-webfont.ttf') format('truetype'),*/
+         /*url('fonts/bariol_regular-webfont.svg#bariol_regularregular') format('svg');*/
     font-weight: normal;
     font-style: normal;
 }
